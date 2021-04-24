@@ -1,0 +1,90 @@
+{
+  "description": "Read user programmable buttons of Wio Terminal.",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__in__": "False"
+      },
+      "description": "Button A.",
+      "id": "HJlVKdVlDd",
+      "label": "A",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Triggers new read",
+      "id": "rkZEK_VxPu",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Fires on reading complete",
+      "id": "S1z4KOExDu",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HkfcdVewd",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "False"
+      },
+      "description": "Button B.",
+      "id": "S1vjd4gD_",
+      "label": "B",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "False"
+      },
+      "description": "Button C.",
+      "id": "SkxPjONewu",
+      "label": "C",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "id": "HJ6hSUeD_",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/utility"
+    }
+  ]
+}

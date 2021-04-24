@@ -1,0 +1,347 @@
+{
+  "description": "User configurable buttons of Wio Terminal.",
+  "links": [
+    {
+      "id": "rJSBU8lPd",
+      "input": {
+        "nodeId": "B1WH8Ugv_",
+        "pinKey": "S101C0OU-"
+      },
+      "output": {
+        "nodeId": "HJTQLIlvu",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    },
+    {
+      "id": "rkbylD8xPd",
+      "input": {
+        "nodeId": "B1lklDIlwu",
+        "pinKey": "S101C0OU-"
+      },
+      "output": {
+        "nodeId": "rJJxvUgwO",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    },
+    {
+      "id": "r1NkxvIxvd",
+      "input": {
+        "nodeId": "Sk7kxwLxwd",
+        "pinKey": "S101C0OU-"
+      },
+      "output": {
+        "nodeId": "S1M1xPIlwO",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    },
+    {
+      "id": "HyXxvIgPd",
+      "input": {
+        "nodeId": "HJTQLIlvu",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "rJB-I8lPO",
+        "pinKey": "HJlVKdVlDd"
+      }
+    },
+    {
+      "id": "HkVxDLgPu",
+      "input": {
+        "nodeId": "rJJxvUgwO",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "rJB-I8lPO",
+        "pinKey": "S1vjd4gD_"
+      }
+    },
+    {
+      "id": "BJUgPUlDu",
+      "input": {
+        "nodeId": "S1M1xPIlwO",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "rJB-I8lPO",
+        "pinKey": "SkxPjONewu"
+      }
+    },
+    {
+      "id": "rkIZDIgwO",
+      "input": {
+        "nodeId": "rJB-I8lPO",
+        "pinKey": "rkZEK_VxPu"
+      },
+      "output": {
+        "nodeId": "HJ6-8Lewu",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryXVvLxv_",
+      "input": {
+        "nodeId": "SypXD8gDu",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SkeYLIgDO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJqDvUlDd",
+      "input": {
+        "nodeId": "B1WH8Ugv_",
+        "pinKey": "SkqxAC_LW"
+      },
+      "output": {
+        "nodeId": "Skv8D8lwO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJhvw8ePO",
+      "input": {
+        "nodeId": "B1lklDIlwu",
+        "pinKey": "SkqxAC_LW"
+      },
+      "output": {
+        "nodeId": "r1NPwIgvO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJAPwUgPO",
+      "input": {
+        "nodeId": "Sk7kxwLxwd",
+        "pinKey": "SkqxAC_LW"
+      },
+      "output": {
+        "nodeId": "B1SvDUlvO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ByatDIlDu",
+      "input": {
+        "nodeId": "rJEFDIevd",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "B1WH8Ugv_",
+        "pinKey": "Sk7EARu8-"
+      }
+    },
+    {
+      "id": "Sy1qPIeDu",
+      "input": {
+        "nodeId": "SkYFvUgP_",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "B1lklDIlwu",
+        "pinKey": "Sk7EARu8-"
+      }
+    },
+    {
+      "id": "ryZcDUgwu",
+      "input": {
+        "nodeId": "BymYYvIlD_",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Sk7kxwLxwd",
+        "pinKey": "Sk7EARu8-"
+      }
+    },
+    {
+      "id": "ByBjDUgDd",
+      "input": {
+        "nodeId": "SyFcvIgPu",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rJB-I8lPO",
+        "pinKey": "S1z4KOExDu"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "rJB-I8lPO",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/read-keys"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update. Triggers new read.",
+      "id": "HJ6-8Lewu",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HJTQLIlvu",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/core/not"
+    },
+    {
+      "id": "B1WH8Ugv_",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/core/debounce"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "0.03"
+      },
+      "description": "The maximal time of signal bounce on a switch in seconds. Changes during this time window are ignored to settle down the contact",
+      "id": "SkeYLIgDO",
+      "label": "Tb",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "rJJxvUgwO",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/core/not"
+    },
+    {
+      "id": "B1lklDIlwu",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/core/debounce"
+    },
+    {
+      "id": "S1M1xPIlwO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/not"
+    },
+    {
+      "id": "Sk7kxwLxwd",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "xod/core/debounce"
+    },
+    {
+      "id": "SypXD8gDu",
+      "label": "Tb",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "Skv8D8lwO",
+      "label": "Tb",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "r1NPwIgvO",
+      "label": "Tb",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "B1SvDUlvO",
+      "label": "Tb",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "description": "Button A.",
+      "id": "rJEFDIevd",
+      "label": "A",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "description": "Button B.",
+      "id": "SkYFvUgP_",
+      "label": "B",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "description": "Button C.",
+      "id": "BymYYvIlD_",
+      "label": "C",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SyFcvIgPu",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
