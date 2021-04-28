@@ -1,0 +1,98 @@
+{
+  "links": [
+    {
+      "id": "SyE3nIwDu",
+      "input": {
+        "nodeId": "SyWhn8wDd",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ry-snUDwd",
+        "pinKey": "rJzzJRrwvu"
+      }
+    },
+    {
+      "id": "SkU2h8Pv_",
+      "input": {
+        "nodeId": "BJLj3IDP_",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "By3928vDd",
+        "pinKey": "Sk-D43UPPO"
+      }
+    },
+    {
+      "id": "BkSZAUwwd",
+      "input": {
+        "nodeId": "By3928vDd",
+        "pinKey": "BkfvV2LDD_"
+      },
+      "output": {
+        "nodeId": "rJ7lRUvP_",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "Byd-CLPPd",
+      "input": {
+        "nodeId": "ry-snUDwd",
+        "pinKey": "SyXzJ0BwDO"
+      },
+      "output": {
+        "nodeId": "rJ7lRUvP_",
+        "pinKey": "HJU8CE2lW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "By3928vDd",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/light-sensor"
+    },
+    {
+      "id": "ry-snUDwd",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "@/microphone"
+    },
+    {
+      "id": "BJLj3IDP_",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SyWhn8wDd",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "0.1"
+      },
+      "id": "rJ7lRUvP_",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    }
+  ]
+}
