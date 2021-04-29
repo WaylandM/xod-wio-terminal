@@ -1,4 +1,5 @@
 {
+  "description": "Wio Terminal's built-in light sensor.",
   "nodes": [
     {
       "description": "Fires on reading complete",

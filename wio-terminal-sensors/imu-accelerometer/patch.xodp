@@ -1,0 +1,391 @@
+{
+  "description": "Read triaxial acceleration using inertial measurement unit (LIS3DH).",
+  "links": [
+    {
+      "id": "BJWgl0E1OD_",
+      "input": {
+        "nodeId": "rJJeeCNk_wd",
+        "pinKey": "S1gUQfhfD"
+      },
+      "output": {
+        "nodeId": "Sk2g0V1_DO",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "H1GleREyODu",
+      "input": {
+        "nodeId": "Hysx0V1uv_",
+        "pinKey": "HyWYfzXhGv"
+      },
+      "output": {
+        "nodeId": "BJde04JuDd",
+        "pinKey": "SJVql9lXr"
+      }
+    },
+    {
+      "id": "B1XglCVJdvO",
+      "input": {
+        "nodeId": "rJJeeCNk_wd",
+        "pinKey": "Hkv_uf3fw"
+      },
+      "output": {
+        "nodeId": "Sk6lR4kdwO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1LleCE1dw_",
+      "input": {
+        "nodeId": "S1Ex0EJODO",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJWxRN1OP_",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "SkwlgAN1Ovd",
+      "input": {
+        "nodeId": "SyleAEJdwu",
+        "pinKey": "HkqN3tYzP"
+      },
+      "output": {
+        "nodeId": "rJJeeCNk_wd",
+        "pinKey": "rk6KOG2zD"
+      }
+    },
+    {
+      "id": "H1_xlCVydD_",
+      "input": {
+        "nodeId": "Sk2g0V1_DO",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "HJreR4Juvu",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "r1YggCNk_D_",
+      "input": {
+        "nodeId": "B1zgC41dP_",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hysx0V1uv_",
+        "pinKey": "rJmFzfXnfw"
+      }
+    },
+    {
+      "id": "H15xxCEJOwu",
+      "input": {
+        "nodeId": "Hysx0V1uv_",
+        "pinKey": "ryrYfzX2zw"
+      },
+      "output": {
+        "nodeId": "BJWxRN1OP_",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "B1slgANyuPO",
+      "input": {
+        "nodeId": "r1IlC4kuDu",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hysx0V1uv_",
+        "pinKey": "S1KzGX3MP"
+      }
+    },
+    {
+      "id": "S1nge0Vyuwu",
+      "input": {
+        "nodeId": "rJJeeCNk_wd",
+        "pinKey": "B1dMbX2MP"
+      },
+      "output": {
+        "nodeId": "SkXgAVk_v_",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJpxgAEJOwO",
+      "input": {
+        "nodeId": "BJde04JuDd",
+        "pinKey": "ByFqg5eXr"
+      },
+      "output": {
+        "nodeId": "SyleAEJdwu",
+        "pinKey": "BkLB3KKzv"
+      }
+    },
+    {
+      "id": "HyCexRV1OPO",
+      "input": {
+        "nodeId": "SyleAEJdwu",
+        "pinKey": "S1ikWX2zv"
+      },
+      "output": {
+        "nodeId": "SJxRVkODd",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Syk-xCVy_vO",
+      "input": {
+        "nodeId": "SJvlAN1uwd",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hysx0V1uv_",
+        "pinKey": "ByeYzMQnzw"
+      }
+    },
+    {
+      "id": "SyeZxREkOPO",
+      "input": {
+        "nodeId": "SyleAEJdwu",
+        "pinKey": "SktnAtKzP"
+      },
+      "output": {
+        "nodeId": "HyCx0EkdDu",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkMeryOv_",
+      "input": {
+        "nodeId": "BJWxRN1OP_",
+        "pinKey": "ry-5PGXvO"
+      },
+      "output": {
+        "nodeId": "B1wJByODd",
+        "pinKey": "HkzqwgmD_"
+      }
+    },
+    {
+      "id": "HknDPJODO",
+      "input": {
+        "nodeId": "BkdPPk_PO",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "ry2rPk_v_",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyF2wkOPu",
+      "input": {
+        "nodeId": "BJde04JuDd",
+        "pinKey": "HkFFgqx7B"
+      },
+      "output": {
+        "nodeId": "Hyf5DyOvO",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "SJxRVkODd",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SyleAEJdwu",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "wayland/lis3dh-accelerometer/set-data-rate"
+    },
+    {
+      "boundLiterals": {
+        "HJUg4Q_zD": "18h"
+      },
+      "id": "BJWxRN1OP_",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "wayland/lis3dh-accelerometer/lis3dh-device"
+    },
+    {
+      "description": "Acceleration (metre per second squared) in z-axis.",
+      "id": "B1zgC41dP_",
+      "label": "Z",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 6
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "SkXgAVk_v_",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "S1Ex0EJODO",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "HJreR4Juvu",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "description": "Acceleration (metre per second squared) in y-axis.",
+      "id": "r1IlC4kuDu",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 6
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Acceleration (metre per second squared) in x-axis.",
+      "id": "SJvlAN1uwd",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 6
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "BJde04JuDd",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/core/wait-all"
+    },
+    {
+      "id": "Hysx0V1uv_",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 5
+      },
+      "type": "wayland/lis3dh-accelerometer/read-acceleration"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "0.1"
+      },
+      "id": "Sk2g0V1_DO",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "description": "Range. Options:  00h = +/- 2g (default), 01h = +/- 4g, 02h = +/- 8g, 03h = +/- 16g.",
+      "id": "Sk6lR4kdwO",
+      "label": "RANGE",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "07h"
+      },
+      "description": "Data rate. Options: 01h = 1 Hz, 02h = 10 Hz, 03h = 25 Hz, 04h = 50 Hz, 05h= 100 Hz, 06h = 200 Hz, 07h = 400 Hz (default), 00h = powered down, 08h = 1.6 kHz (low power), 09h = 5 kHz (low power).",
+      "id": "HyCx0EkdDu",
+      "label": "RATE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "rJJeeCNk_wd",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "wayland/lis3dh-accelerometer/set-range"
+    },
+    {
+      "id": "B1wJByODd",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "wayland/i2c-additional-buses/i2c-wire1"
+    },
+    {
+      "description": "Update. Trigger read.",
+      "id": "ry2rPk_v_",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "BkdPPk_PO",
+      "label": "TRIG",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "Hyf5DyOvO",
+      "label": "TRIG",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    }
+  ]
+}

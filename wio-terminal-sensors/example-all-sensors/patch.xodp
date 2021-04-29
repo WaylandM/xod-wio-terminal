@@ -1,4 +1,5 @@
 {
+  "description": "Patch to test reading from all three onboard sensors (IMU, light and microphone). Run in debugger.",
   "links": [
     {
       "id": "SyE3nIwDu",
@@ -42,6 +43,50 @@
       "output": {
         "nodeId": "rJ7lRUvP_",
         "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "ByICwJ_Du",
+      "input": {
+        "nodeId": "HJZ9LyOv_",
+        "pinKey": "ry2rPk_v_"
+      },
+      "output": {
+        "nodeId": "rJ7lRUvP_",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "B1GJuyuDd",
+      "input": {
+        "nodeId": "BJ2RD1_Du",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJZ9LyOv_",
+        "pinKey": "SJvlAN1uwd"
+      }
+    },
+    {
+      "id": "rkQ1Oyuvu",
+      "input": {
+        "nodeId": "Bkgk_kuwO",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJZ9LyOv_",
+        "pinKey": "r1IlC4kuDu"
+      }
+    },
+    {
+      "id": "S1S1_JdDu",
+      "input": {
+        "nodeId": "By-y_yuvu",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJZ9LyOv_",
+        "pinKey": "B1zgC41dP_"
       }
     }
   ],
@@ -93,6 +138,42 @@
         "y": 0
       },
       "type": "xod/core/clock"
+    },
+    {
+      "id": "HJZ9LyOv_",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 1
+      },
+      "type": "@/imu-accelerometer"
+    },
+    {
+      "id": "BJ2RD1_Du",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Bkgk_kuwO",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "By-y_yuvu",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
     }
   ]
 }

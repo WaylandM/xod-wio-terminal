@@ -1,0 +1,96 @@
+{
+  "description": "Patch to test click-detector. Run in debugger.",
+  "links": [
+    {
+      "id": "Byd3_1_wu",
+      "input": {
+        "nodeId": "r10o_ydvu",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HkWKukuv_",
+        "pinKey": "ryIgy6SJ_PO"
+      }
+    },
+    {
+      "id": "BJq3_1OvO",
+      "input": {
+        "nodeId": "BkLhukdv_",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HkWKukuv_",
+        "pinKey": "HyXeJ6SyuvO"
+      }
+    },
+    {
+      "id": "H1N6dJOPu",
+      "input": {
+        "nodeId": "B1x6d1uDd",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "r10o_ydvu",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "HJi6dJuDd",
+      "input": {
+        "nodeId": "SkOTO1_Dd",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BkLhukdv_",
+        "pinKey": "r1yhZRd8W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HkWKukuv_",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "@/imu-click-detector"
+    },
+    {
+      "id": "r10o_ydvu",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "BkLhukdv_",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "B1x6d1uDd",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SkOTO1_Dd",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

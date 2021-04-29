@@ -1,3 +1,6 @@
 {
-  "name": "wio-terminal-sensors"
+  "description": "Nodes for the Wio Terminal's built-in sensors (accelerometer, light meter and microphone). Wio Terminal is an ATSAMD51-based microcontroller with wireless connectivity powered by Realtek RTL8720DN (https://www.seeedstudio.com/Wio-Terminal-p-4509.html).",
+  "license": "BSD",
+  "name": "wio-terminal-sensors",
+  "version": "0.0.2"
 }
