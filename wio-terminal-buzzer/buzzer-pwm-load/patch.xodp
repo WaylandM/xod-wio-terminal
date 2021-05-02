@@ -1,0 +1,112 @@
+{
+  "links": [
+    {
+      "id": "Hk44vU3PO",
+      "input": {
+        "nodeId": "r1WQDLnPO",
+        "pinKey": "HJm8gLnD_"
+      },
+      "output": {
+        "nodeId": "S1_Qw8nDO",
+        "pinKey": "H1fx68wzB"
+      }
+    },
+    {
+      "id": "BJNLDLnDu",
+      "input": {
+        "nodeId": "r1WQDLnPO",
+        "pinKey": "r1lQ8x8hDu"
+      },
+      "output": {
+        "nodeId": "ryhHD8hvd",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJUIvU3Dd",
+      "input": {
+        "nodeId": "S1_Qw8nDO",
+        "pinKey": "BytC28DfH"
+      },
+      "output": {
+        "nodeId": "ryhHD8hvd",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkO8vLhv_",
+      "input": {
+        "nodeId": "S1_Qw8nDO",
+        "pinKey": "H13R3IvGB"
+      },
+      "output": {
+        "nodeId": "Bkx2BwInD_",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJdww8nwu",
+      "input": {
+        "nodeId": "r1EvDI2vd",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1WQDLnPO",
+        "pinKey": "H1Z78xI3DO"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "r1WQDLnPO",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/buzzer-pwm-write"
+    },
+    {
+      "id": "S1_Qw8nDO",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/core/act"
+    },
+    {
+      "description": "Sets PWM duty cycle for the load in the range [0; 1] where 0.0 is full off and 1.0 is full on.",
+      "id": "ryhHD8hvd",
+      "label": "VAL",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Active. When false, the node does not follow changes of VAL",
+      "id": "Bkx2BwInD_",
+      "label": "ACT",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Acknowledge. Pulses when a change on VAL is reflected to the hardware",
+      "id": "r1EvDI2vd",
+      "label": "ACK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

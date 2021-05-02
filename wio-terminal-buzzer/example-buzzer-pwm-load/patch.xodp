@@ -1,0 +1,104 @@
+{
+  "links": [
+    {
+      "id": "H1jbFLnvO",
+      "input": {
+        "nodeId": "HkkouL2PO",
+        "pinKey": "ryTeUROHD1b"
+      },
+      "output": {
+        "nodeId": "BJv6u82vO",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "ryn-tInPd",
+      "input": {
+        "nodeId": "HkkouL2PO",
+        "pinKey": "r1AgIROHDJW"
+      },
+      "output": {
+        "nodeId": "rJIAuL2v_",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "BkAbt8hPu",
+      "input": {
+        "nodeId": "SkJhDL3vO",
+        "pinKey": "ryhHD8hvd"
+      },
+      "output": {
+        "nodeId": "HkkouL2PO",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "H1LNFL3Du",
+      "input": {
+        "nodeId": "HkkouL2PO",
+        "pinKey": "S1yZIA_rDJZ"
+      },
+      "output": {
+        "nodeId": "Byd7KUhPO",
+        "pinKey": "rJEFDIevd"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Bkx2BwInD_": "True"
+      },
+      "id": "SkJhDL3vO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "@/buzzer-pwm-load"
+    },
+    {
+      "id": "HkkouL2PO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/if-else"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "0.5"
+      },
+      "id": "BJv6u82vO",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/core/constant-number"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "0"
+      },
+      "id": "rJIAuL2v_",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/core/constant-number"
+    },
+    {
+      "id": "Byd7KUhPO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "wayland/wio-terminal-buttons/buttons"
+    }
+  ]
+}
