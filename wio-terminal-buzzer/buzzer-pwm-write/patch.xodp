@@ -1,4 +1,5 @@
 {
+  "description": "Send analog signal to buzzer.",
   "nodes": [
     {
       "boundLiterals": {

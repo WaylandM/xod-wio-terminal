@@ -1,4 +1,5 @@
 {
+  "description": "Sends analog signal (VAL) to buzzer when ACT is True.",
   "links": [
     {
       "id": "Hk44vU3PO",

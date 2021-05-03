@@ -1,4 +1,5 @@
 {
+  "description": "Simple buzzer. Produces sound when button A is pressed. Stops buzzing when button A is released.",
   "links": [
     {
       "id": "H1jbFLnvO",

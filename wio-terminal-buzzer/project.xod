@@ -1,3 +1,6 @@
 {
-  "name": "wio-terminal-buzzer"
+  "description": "Nodes for the Wio Terminal's built-in buzzer. Wio Terminal is an ATSAMD51-based microcontroller with wireless connectivity powered by Realtek RTL8720DN (https://www.seeedstudio.com/Wio-Terminal-p-4509.html).",
+  "license": "MIT",
+  "name": "wio-terminal-buzzer",
+  "version": "0.0.1"
 }
