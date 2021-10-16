@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "S1rOVmOrY",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/color/color-rgb"
+    },
+    {
+      "id": "HJDUjmuBK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/graphics/triangle-solid-colored"
+    }
+  ]
+}

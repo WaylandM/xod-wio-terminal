@@ -1,0 +1,25 @@
+{
+  "description": "Create an LCD device.",
+  "nodes": [
+    {
+      "id": "BJ84MXOSK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An LCD device.",
+      "id": "HJZBMQdSY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "description": "Create an RGBA (uint32_t) color.",
+  "nodes": [
+    {
+      "id": "S1MHHPOSY",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "RGBA (uint32_t) color.",
+      "id": "ryjHrPOrF",
+      "label": "RGBA",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "description": "Red",
+      "id": "HyinHw_rK",
+      "label": "R",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Green",
+      "id": "ryypSvuSY",
+      "label": "G",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Blue",
+      "id": "BkearvdHY",
+      "label": "B",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Alpha (transparency).",
+      "id": "r13epSP_St",
+      "label": "A",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

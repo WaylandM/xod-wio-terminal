@@ -1,0 +1,61 @@
+{
+  "links": [
+    {
+      "id": "Hk9Lo6OHY",
+      "input": {
+        "nodeId": "SkHLjp_BF",
+        "pinKey": "S1D4oIuSt"
+      },
+      "output": {
+        "nodeId": "BJuIipurF",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "rJHwoaOrF",
+      "input": {
+        "nodeId": "SkHLjp_BF",
+        "pinKey": "SkZ5jUOHY"
+      },
+      "output": {
+        "nodeId": "S1MvoaOSt",
+        "pinKey": "SykJ8wjXN"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "ByLUo8dSt": "Continuously"
+      },
+      "id": "SkHLjp_BF",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/fill-screen"
+    },
+    {
+      "id": "BJuIipurF",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "@/lcd-device"
+    },
+    {
+      "boundLiterals": {
+        "SykJ8wjXN": "#14AD70"
+      },
+      "id": "S1MvoaOSt",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-color"
+    }
+  ]
+}
