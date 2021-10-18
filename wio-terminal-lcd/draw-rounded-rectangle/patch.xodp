@@ -1,5 +1,5 @@
 {
-  "description": "Draw  a rectangle.",
+  "description": "Draw a rounded rectangle.",
   "nodes": [
     {
       "id": "BkYzNj5rY",
@@ -41,7 +41,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 8,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -52,7 +52,7 @@
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 6,
         "y": 0
       },
       "type": "xod/color/input-color"
@@ -107,10 +107,21 @@
       "label": "Fill",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Corner radius.",
+      "id": "H1sztxiHF",
+      "label": "R",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }
