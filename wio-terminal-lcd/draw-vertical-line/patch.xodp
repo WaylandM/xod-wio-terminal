@@ -1,0 +1,94 @@
+{
+  "description": "Draw a vertical line (quicker than draw-line node).",
+  "nodes": [
+    {
+      "id": "H1NtmRcSK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on completion.\n",
+      "id": "rklVY7R5rF",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "An LCD device.",
+      "id": "rJ-EKmR9BF",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lcd-device"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update.",
+      "id": "BJMEKmA9Ht",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Line color.",
+      "id": "SJ7EY709rY",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "X coordinate of the start of the line.",
+      "id": "HyVNtQRcrK",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate of the start of the line.",
+      "id": "ryr4K709HY",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Height (pixels)",
+      "id": "HJP4KXR5Bt",
+      "label": "H",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}

@@ -1,6 +1,3 @@
-// Tell XOD where it can download the libraries:
-#pragma XOD require "https://github.com/Seeed-Studio/Seeed_Arduino_LCD"
-
 //Include C++ libraries
 #include"TFT_eSPI.h"
 

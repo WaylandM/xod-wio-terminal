@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "SyTJoU_rK",
+      "id": "SyoM5e9SK",
       "position": {
         "units": "slots",
         "x": 0,
@@ -11,7 +11,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "B1_gsLdHF",
+      "id": "Skeif9ecHF",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -21,36 +21,35 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "An LCD device.",
-      "id": "S1D4oIuSt",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-lcd-device"
-    },
-    {
       "description": "Update.",
-      "id": "ByLUo8dSt",
+      "id": "rkfjMcgqSt",
       "label": "UPD",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-pulse"
-    },
-    {
-      "id": "SkZ5jUOHY",
-      "label": "Color",
       "position": {
         "units": "slots",
         "x": 1,
         "y": 0
       },
-      "type": "xod/color/input-color"
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Toggle backlight on (True) and off (False).",
+      "id": "rJfV9x9rK",
+      "label": "ON",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "HyUBAx9SY",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }
