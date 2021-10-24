@@ -1,5 +1,5 @@
 {
-  "description": "Draw a character.",
+  "description": "Draw a string.",
   "nodes": [
     {
       "id": "B1umbicBF",
@@ -41,7 +41,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -82,7 +82,7 @@
     {
       "description": "Character to draw.",
       "id": "SyM8ffoHt",
-      "label": "Char",
+      "label": "String",
       "position": {
         "units": "slots",
         "x": 3,
@@ -91,23 +91,12 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Background color.",
-      "id": "BylzIMMsBY",
-      "label": "BG",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 0
-      },
-      "type": "xod/color/input-color"
-    },
-    {
-      "description": "Size of character.",
+      "description": "Text size multiplier (takes values from 01h to 07h).",
       "id": "SyWMLMMorY",
       "label": "Size",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"

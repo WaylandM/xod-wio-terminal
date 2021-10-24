@@ -1,2 +1,60 @@
 {
+  "description": "Set rotation of display. Options: 00h (0º), 01h (90º), 02h (180º) and 03h (270º). N.B. the lcd-device node sets the rotation to 03h (270º) as this is the most commonly used orientation.",
+  "nodes": [
+    {
+      "id": "BJdzfcZUF",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on completion.\n",
+      "id": "rkeOMfcZUY",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "An LCD device.",
+      "id": "HybdfMcZIK",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lcd-device"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update.",
+      "id": "BkMOGf9-IY",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Skx3z9-UY",
+      "label": "Rotate",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
 }
