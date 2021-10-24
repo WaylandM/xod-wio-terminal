@@ -1,0 +1,276 @@
+{
+  "links": [
+    {
+      "id": "HkyoIB78t",
+      "input": {
+        "nodeId": "r12YISXUY",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SynuLHmLY",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "HJRiISX8F",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "Skbyq0il8F"
+      },
+      "output": {
+        "nodeId": "SkLiIr78K",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyCowH7UF",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "ryE1qRjl8t"
+      },
+      "output": {
+        "nodeId": "SymswrXIK",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "BklnvBX8K",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "rkBkqAjl8F"
+      },
+      "output": {
+        "nodeId": "ByYivSXUt",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "S1-hDHmLK",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "H1LkqAjlUF"
+      },
+      "output": {
+        "nodeId": "BybcoDBmUt",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "HymnDHQ8t",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "S1wy50olUK"
+      },
+      "output": {
+        "nodeId": "BkijvBmIY",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "HkD1_rm8F",
+      "input": {
+        "nodeId": "r1HAwrQLt",
+        "pinKey": "S1D4oIuSt"
+      },
+      "output": {
+        "nodeId": "B1GydSmUF",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sy3xuBQ8F",
+      "input": {
+        "nodeId": "r1HAwrQLt",
+        "pinKey": "ByLUo8dSt"
+      },
+      "output": {
+        "nodeId": "HJ4TIBXIF",
+        "pinKey": "Bkf4BDsmV"
+      }
+    },
+    {
+      "id": "H1lZOrQ8t",
+      "input": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "HyMyqCixLt"
+      },
+      "output": {
+        "nodeId": "r1HAwrQLt",
+        "pinKey": "B1_gsLdHF"
+      }
+    },
+    {
+      "id": "SyWudSXLF",
+      "input": {
+        "nodeId": "Syp-uSmLK",
+        "pinKey": "rJZ0_yacrF"
+      },
+      "output": {
+        "nodeId": "SyTDOr7UF",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rymOuBmIF",
+      "input": {
+        "nodeId": "Syp-uSmLK",
+        "pinKey": "S1fAOJacBY"
+      },
+      "output": {
+        "nodeId": "HkMFLB7IY",
+        "pinKey": "H1xyqRolLK"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "SynuLHmLY",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "@/lcd-device"
+    },
+    {
+      "boundLiterals": {
+        "HymJcCol8F": "#FFFF00",
+        "SJ_y5AjxUF": "True"
+      },
+      "id": "HkMFLB7IY",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "type": "@/draw-ellipse"
+    },
+    {
+      "id": "r12YISXUY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "SkLiIr78K",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HJ4TIBXIF",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "id": "SymswrXIK",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "ByYivSXUt",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "BybcoDBmUt",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "BkijvBmIY",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "SkZ5jUOHY": "#00FFFF"
+      },
+      "id": "r1HAwrQLt",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "@/fill-screen"
+    },
+    {
+      "id": "B1GydSmUF",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "SymAO1pcSF": "#FFFFFF"
+      },
+      "id": "Syp-uSmLK",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "type": "@/draw-circle"
+    },
+    {
+      "id": "SyTDOr7UF",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "ryS7YH78Y",
+      "position": {
+        "units": "slots",
+        "x": 24,
+        "y": 3
+      },
+      "type": "wayland/wio-terminal-sensors/imu-accelerometer"
+    },
+    {
+      "id": "HJ_rKrmIY",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 5
+      },
+      "type": "wayland/wio-terminal-sensors/light-sensor"
+    }
+  ]
+}

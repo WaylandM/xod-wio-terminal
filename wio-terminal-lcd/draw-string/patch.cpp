@@ -20,9 +20,9 @@ node {
 
         tft -> setTextColor(color16);
         tft -> setTextSize(getValue<input_Size>(ctx));
-        tft -> drawChar(getValue<input_X>(ctx),
-                        getValue<input_Y>(ctx),
-                        cString);
+        tft -> drawString(cString,
+                        getValue<input_X>(ctx),
+                        getValue<input_Y>(ctx));
 
         emitValue<output_Done>(ctx, 1);
     }

@@ -91,6 +91,9 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
+      "boundLiterals": {
+        "__out__": "01h"
+      },
       "description": "Text size multiplier (takes values from 01h to 07h).",
       "id": "SyWMLMMorY",
       "label": "Size",
