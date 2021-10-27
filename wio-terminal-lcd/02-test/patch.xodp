@@ -120,6 +120,28 @@
         "nodeId": "HkMFLB7IY",
         "pinKey": "H1xyqRolLK"
       }
+    },
+    {
+      "id": "ryQhNIHPUY",
+      "input": {
+        "nodeId": "HkhVUHD8F",
+        "pinKey": "B1b-OQAcSt"
+      },
+      "output": {
+        "nodeId": "SJbhELSPLF",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Bk4nV8BwUY",
+      "input": {
+        "nodeId": "SyehV8rPIK",
+        "pinKey": "rJ-EKmR9BF"
+      },
+      "output": {
+        "nodeId": "HkGnV8Hv8K",
+        "pinKey": "__out__"
+      }
     }
   ],
   "nodes": [
@@ -271,6 +293,54 @@
         "y": 5
       },
       "type": "wayland/wio-terminal-sensors/light-sensor"
+    },
+    {
+      "boundLiterals": {
+        "BJUWdQAcBK": "320",
+        "SkSWumRqHK": "120",
+        "Sy7ZuQ0cSK": "#FF00FF"
+      },
+      "id": "HkhVUHD8F",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 0
+      },
+      "type": "@/draw-horizontal-line"
+    },
+    {
+      "boundLiterals": {
+        "HJP4KXR5Bt": "240",
+        "HyVNtQRcrK": "160",
+        "SJ7EY709rY": "#FF00FF"
+      },
+      "id": "SyehV8rPIK",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 1
+      },
+      "type": "@/draw-vertical-line"
+    },
+    {
+      "id": "SJbhELSPLF",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HkGnV8Hv8K",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }
