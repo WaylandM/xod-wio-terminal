@@ -88,6 +88,9 @@
       "type": "xod/core/act"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "Toggle backlight on (True) and off (False).",
       "id": "ryYRpe9rF",
       "label": "ON",
@@ -99,6 +102,9 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "Make the node respond to changes in the input to ON.",
       "id": "ryiR6l5rK",
       "label": "ACT",
