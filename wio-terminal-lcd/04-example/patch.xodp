@@ -1,7 +1,7 @@
 {
   "comments": [
     {
-      "content": "# Draw character",
+      "content": "# Draw a character",
       "id": "HkfVKlxwK",
       "position": {
         "units": "slots",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "content": "# Draw chequerboard",
+      "content": "# Draw a chequerboard",
       "id": "BJ3LFlevt",
       "position": {
         "units": "slots",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "content": "# Draw string",
+      "content": "# Draw a string",
       "id": "rkfloDhwt",
       "position": {
         "units": "slots",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "content": "# Draw grid",
+      "content": "# Draw a grid",
       "id": "H1WDj8TPY",
       "position": {
         "units": "slots",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "content": "# Draw fish",
+      "content": "# Draw a fish",
       "id": "Sk11Bw6wF",
       "position": {
         "units": "slots",
@@ -97,8 +97,37 @@
         "units": "slots",
         "width": 5
       }
+    },
+    {
+      "content": "# Draw numbered panels",
+      "id": "HJtZGIAwF",
+      "position": {
+        "units": "slots",
+        "x": 61,
+        "y": -1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      }
+    },
+    {
+      "content": "*To use the Wio Terminal with XOD, you will need to add the following line to* ``` xod/__packages__/extra.txt ```:\n*https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json*",
+      "id": "H16z1eJuY",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 9
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 13
+      }
     }
   ],
+  "description": "Demonstration of some of the shapes and patterns that can be drawn on the LCD. Move the 5-way switch left or right to navigate through the examples.",
   "links": [
     {
       "id": "H1TwArQUK",
@@ -1166,6 +1195,116 @@
         "nodeId": "Hy-QNHP6wY",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "H19HswTPY",
+      "input": {
+        "nodeId": "B11HowpDK",
+        "pinKey": "SJMO7bo9BK"
+      },
+      "output": {
+        "nodeId": "Hkf7SPavK",
+        "pinKey": "ByeKMVoqSt"
+      }
+    },
+    {
+      "id": "HyCShDTwt",
+      "input": {
+        "nodeId": "Bk1b2DTDt",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "Hkf7SPavK",
+        "pinKey": "ByeKMVoqSt"
+      }
+    },
+    {
+      "id": "SyNP2DawF",
+      "input": {
+        "nodeId": "HJ5U2vaDF",
+        "pinKey": "BJnQUR_BwyZ"
+      },
+      "output": {
+        "nodeId": "H1W7IvpPY",
+        "pinKey": "H17YzRDFvK"
+      }
+    },
+    {
+      "id": "S1vv2P6vK",
+      "input": {
+        "nodeId": "ryevnDTvY",
+        "pinKey": "BJnQUR_BwyZ"
+      },
+      "output": {
+        "nodeId": "H1W7IvpPY",
+        "pinKey": "H1VFfCPFvK"
+      }
+    },
+    {
+      "id": "rJUY3vpwt",
+      "input": {
+        "nodeId": "B11HowpDK",
+        "pinKey": "SyM8ffoHt"
+      },
+      "output": {
+        "nodeId": "Bk1b2DTDt",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "Sy5K3D6wF",
+      "input": {
+        "nodeId": "B11HowpDK",
+        "pinKey": "Hk-8Zo5BK"
+      },
+      "output": {
+        "nodeId": "ryevnDTvY",
+        "pinKey": "SyomIRurDJ-"
+      }
+    },
+    {
+      "id": "Hy6t2PTPF",
+      "input": {
+        "nodeId": "B11HowpDK",
+        "pinKey": "HkLrbs9HY"
+      },
+      "output": {
+        "nodeId": "HJ5U2vaDF",
+        "pinKey": "SyomIRurDJ-"
+      }
+    },
+    {
+      "id": "SJNc2vTDK",
+      "input": {
+        "nodeId": "B11HowpDK",
+        "pinKey": "HyZ_QZi9rY"
+      },
+      "output": {
+        "nodeId": "Sy1cnw6wK",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryukpvTvY",
+      "input": {
+        "nodeId": "rks0nDaDK",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "H1W7IvpPY",
+        "pinKey": "B1bYzRwtwF"
+      }
+    },
+    {
+      "id": "Byel6vawK",
+      "input": {
+        "nodeId": "Bk1b2DTDt",
+        "pinKey": "SkUjZA_L-"
+      },
+      "output": {
+        "nodeId": "rks0nDaDK",
+        "pinKey": "HJhXDIY9-"
+      }
     }
   ],
   "nodes": [
@@ -1267,7 +1406,7 @@
     },
     {
       "boundLiterals": {
-        "B1x2RV3eZ": "8"
+        "B1x2RV3eZ": "6"
       },
       "id": "Bk6AfUQ8F",
       "position": {
@@ -1335,7 +1474,7 @@
       "id": "HJp0irnUK",
       "position": {
         "units": "slots",
-        "x": 25,
+        "x": 31,
         "y": 1
       },
       "type": "xod/core/equal(number)"
@@ -1344,7 +1483,7 @@
       "id": "SkgTCiHnLF",
       "position": {
         "units": "slots",
-        "x": 25,
+        "x": 32,
         "y": 2
       },
       "type": "xod/core/pulse-on-true"
@@ -1354,7 +1493,7 @@
       "label": "Page",
       "position": {
         "units": "slots",
-        "x": 25,
+        "x": 31,
         "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
@@ -1421,7 +1560,7 @@
       "id": "SyWTDllwt",
       "position": {
         "units": "slots",
-        "x": 76,
+        "x": 73,
         "y": 1
       },
       "type": "xod/core/equal(number)"
@@ -1430,7 +1569,7 @@
       "id": "HkeWpDglPK",
       "position": {
         "units": "slots",
-        "x": 77,
+        "x": 74,
         "y": 2
       },
       "type": "xod/core/pulse-on-true"
@@ -1440,7 +1579,7 @@
       "label": "Page",
       "position": {
         "units": "slots",
-        "x": 76,
+        "x": 73,
         "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
@@ -1452,7 +1591,7 @@
       "id": "ryyfuggwY",
       "position": {
         "units": "slots",
-        "x": 75,
+        "x": 72,
         "y": 3
       },
       "type": "@/fill-screen"
@@ -1462,13 +1601,14 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 75,
+        "x": 72,
         "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "boundLiterals": {
+        "BkmFzEjqBY": "#000000",
         "ByVFfNoqHt": "40",
         "HJBdqJjrK": "True",
         "SkWNEicBF": "240",
@@ -1477,7 +1617,7 @@
       "id": "S11_dxlPt",
       "position": {
         "units": "slots",
-        "x": 74,
+        "x": 71,
         "y": 4
       },
       "type": "@/draw-rectangle"
@@ -1487,7 +1627,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 74,
+        "x": 71,
         "y": 3
       },
       "type": "xod/patch-nodes/from-bus"
@@ -1503,7 +1643,7 @@
       "id": "rJLvM-xvY",
       "position": {
         "units": "slots",
-        "x": 74,
+        "x": 71,
         "y": 10
       },
       "type": "@/draw-rectangle"
@@ -1513,7 +1653,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 74,
+        "x": 71,
         "y": 9
       },
       "type": "xod/patch-nodes/from-bus"
@@ -1529,7 +1669,7 @@
       "id": "Sy4wfTKvF",
       "position": {
         "units": "slots",
-        "x": 75,
+        "x": 72,
         "y": 5
       },
       "type": "wayland/generate-grid/generate-grid"
@@ -1538,7 +1678,7 @@
       "id": "BJTaBptwt",
       "position": {
         "units": "slots",
-        "x": 80,
+        "x": 77,
         "y": 6
       },
       "type": "xod/core/pulse-on-change"
@@ -1547,7 +1687,7 @@
       "id": "HyRd5pFDF",
       "position": {
         "units": "slots",
-        "x": 78,
+        "x": 75,
         "y": 9
       },
       "type": "xod/core/flip-flop"
@@ -1556,7 +1696,7 @@
       "id": "ryUToTtDF",
       "position": {
         "units": "slots",
-        "x": 80,
+        "x": 77,
         "y": 7
       },
       "type": "xod/core/flip-flop"
@@ -1565,7 +1705,7 @@
       "id": "B1oCoaFDF",
       "position": {
         "units": "slots",
-        "x": 81,
+        "x": 78,
         "y": 8
       },
       "type": "xod/core/branch"
@@ -1999,7 +2139,8 @@
         "BkERdJ6qBt": "45",
         "H1S0_ypqSF": "110",
         "HJaZqksHt": "True",
-        "SkvROya5BF": "10"
+        "SkvROya5BF": "10",
+        "SymAO1pcSF": "#000000"
       },
       "id": "SJRagw6vK",
       "position": {
@@ -2152,6 +2293,71 @@
         "y": 3
       },
       "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "H1XdXbicHY": "#FFFF00",
+        "SyWMLMMorY": "03h"
+      },
+      "id": "B11HowpDK",
+      "position": {
+        "units": "slots",
+        "x": 61,
+        "y": 6
+      },
+      "type": "@/draw-character"
+    },
+    {
+      "id": "Bk1b2DTDt",
+      "position": {
+        "units": "slots",
+        "x": 66,
+        "y": 5
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "boundLiterals": {
+        "HkqmLAOrD1W": "20"
+      },
+      "id": "HJ5U2vaDF",
+      "position": {
+        "units": "slots",
+        "x": 62,
+        "y": 5
+      },
+      "type": "xod/core/add"
+    },
+    {
+      "boundLiterals": {
+        "HkqmLAOrD1W": "20"
+      },
+      "id": "ryevnDTvY",
+      "position": {
+        "units": "slots",
+        "x": 64,
+        "y": 5
+      },
+      "type": "xod/core/add"
+    },
+    {
+      "id": "Sy1cnw6wK",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 61,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "rks0nDaDK",
+      "position": {
+        "units": "slots",
+        "x": 69,
+        "y": 5
+      },
+      "type": "xod/core/defer"
     }
   ]
 }

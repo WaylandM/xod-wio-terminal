@@ -1,4 +1,21 @@
 {
+  "comments": [
+    {
+      "content": "*To use the Wio Terminal with XOD, you will need to add the following line to* ``` xod/__packages__/extra.txt ```:\n*https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json*",
+      "id": "r1-byxydt",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 13
+      }
+    }
+  ],
+  "description": "Level. Check that a surface is horizontal using the Wio Terminal. On the LCD you will see a fixed cyan ring and a moveable yellow circle. When the yellow circle is inside the cyan ring, the surface on which the Wio Terminal is resting is horizontal.",
   "links": [
     {
       "id": "BkZ7mALLF",

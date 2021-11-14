@@ -44,6 +44,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
       "description": "Line color.",
       "id": "HkQ5MZo5SY",
       "label": "Color",

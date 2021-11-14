@@ -47,7 +47,10 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Outline color.",
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
+      "description": "Color.",
       "id": "BkmFzEjqBY",
       "label": "Color",
       "position": {

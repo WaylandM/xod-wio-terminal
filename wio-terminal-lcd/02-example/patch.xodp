@@ -1,4 +1,21 @@
 {
+  "comments": [
+    {
+      "content": "*To use the Wio Terminal with XOD, you will need to add the following line to* ``` xod/__packages__/extra.txt ```:\n*https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json*",
+      "id": "HkWeJxJut",
+      "position": {
+        "units": "slots",
+        "x": -4,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 13
+      }
+    }
+  ],
+  "description": "Motion detector. Detect sudden movements (clicks/taps) using the Wio Terminal's inbuilt inertial measurement unit. Screen is green until motion is detected at which point it turns red. Use button A on the Wio Terminal to reset the detector.",
   "links": [
     {
       "id": "rJV2YVXUt",

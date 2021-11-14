@@ -47,6 +47,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
       "description": "Pixel color.",
       "id": "H1XdXbicHY",
       "label": "Color",

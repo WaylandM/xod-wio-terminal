@@ -47,6 +47,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
       "description": "Color of character.",
       "id": "H1XdXbicHY",
       "label": "Color",
@@ -80,7 +83,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Character to draw.",
+      "description": "String to draw.",
       "id": "SyM8ffoHt",
       "label": "String",
       "position": {

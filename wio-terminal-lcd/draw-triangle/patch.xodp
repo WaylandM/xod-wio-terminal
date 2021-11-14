@@ -1,5 +1,5 @@
 {
-  "description": "Draw the outline of a triangle.",
+  "description": "Draw a triangle.",
   "nodes": [
     {
       "id": "H15GWj5SF",
@@ -44,7 +44,10 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Line color.",
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
+      "description": "Color.",
       "id": "HkQ5MZo5SY",
       "label": "Color",
       "position": {

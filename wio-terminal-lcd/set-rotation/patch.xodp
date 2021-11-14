@@ -1,5 +1,5 @@
 {
-  "description": "Set rotation of display. Options: 00h (0º), 01h (90º), 02h (180º) and 03h (270º). N.B. the lcd-device node sets the rotation to 03h (270º) as this is the most commonly used orientation.",
+  "description": "Set rotation of display. ",
   "nodes": [
     {
       "id": "BJdzfcZUF",
@@ -47,6 +47,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Rotation. Options: 00h (0º), 01h (90º), 02h (180º) and 03h (270º). N.B. the lcd-device node sets the rotation to 03h (270º) as this is the most commonly used orientation.",
       "id": "Skx3z9-UY",
       "label": "Rotate",
       "position": {

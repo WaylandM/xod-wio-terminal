@@ -1,4 +1,6 @@
 {
+  "description": "Library to drive the LCD of the Wio Terminal. Partially wraps https://github.com/Seeed-Studio/Seeed_Arduino_LCD",
+  "license": "MIT",
   "name": "wio-terminal-lcd",
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
