@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "Hk43aHE_Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An LCD device.",
+      "id": "r1q06rNOY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-lcd-device"
+    },
+    {
+      "description": "Path to file on SD card.",
+      "id": "Hk-ZRHVOK",
+      "label": "File",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Set to true for 16-bit images. Set to false for 8-bit images.",
+      "id": "rk1rCrVut",
+      "label": "16-bit",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Update.",
+      "id": "SyiuRHVdF",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.\n",
+      "id": "rySYCBNdt",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
