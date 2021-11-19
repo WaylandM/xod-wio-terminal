@@ -88,36 +88,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
-    },
-    {
-      "id": "Bk5TzzSOY",
-      "label": "N",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-number"
-    },
-    {
-      "id": "rJ3C2DS_F",
-      "label": "W",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-number"
-    },
-    {
-      "id": "B1gkaDHOF",
-      "label": "H",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-number"
     }
   ]
 }
