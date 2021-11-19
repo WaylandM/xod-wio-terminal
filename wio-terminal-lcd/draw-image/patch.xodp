@@ -26,18 +26,21 @@
       "label": "File",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-string"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "Set to true for 16-bit images. Set to false for 8-bit images.",
       "id": "rk1rCrVut",
       "label": "16-bit",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
@@ -48,7 +51,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -63,6 +66,28 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "X coordinate.",
+      "id": "H1AnAJHuF",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate.",
+      "id": "Syl03CJr_F",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }

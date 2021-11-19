@@ -1,2 +1,90 @@
 {
+  "links": [
+    {
+      "id": "rklQAkHOF",
+      "input": {
+        "nodeId": "Bkt6TkSuK",
+        "pinKey": "r1q06rNOY"
+      },
+      "output": {
+        "nodeId": "r16fR1SOK",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "rJ3S0Jrdt",
+      "input": {
+        "nodeId": "Bkt6TkSuK",
+        "pinKey": "SyiuRHVdF"
+      },
+      "output": {
+        "nodeId": "B1cSAyrdK",
+        "pinKey": "B1_gsLdHF"
+      }
+    },
+    {
+      "id": "rJRS0yrOt",
+      "input": {
+        "nodeId": "B1cSAyrdK",
+        "pinKey": "ByLUo8dSt"
+      },
+      "output": {
+        "nodeId": "SJ5E0yBuF",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "Hk-IC1B_t",
+      "input": {
+        "nodeId": "B1cSAyrdK",
+        "pinKey": "S1D4oIuSt"
+      },
+      "output": {
+        "nodeId": "r16fR1SOK",
+        "pinKey": "HJZBMQdSY"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Hk-ZRHVOK": "\"rgb565/butterfly.bmp\"",
+        "rk1rCrVut": "True"
+      },
+      "id": "Bkt6TkSuK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/draw-image"
+    },
+    {
+      "id": "r16fR1SOK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "@/lcd-device"
+    },
+    {
+      "id": "SJ5E0yBuF",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "id": "B1cSAyrdK",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "@/fill-screen"
+    }
+  ]
 }
