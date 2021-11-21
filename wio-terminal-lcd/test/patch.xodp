@@ -519,7 +519,7 @@
         "x": 8,
         "y": 4
       },
-      "type": "@/draw-image"
+      "type": "@/load-image"
     },
     {
       "id": "H1Nln1voHuK",
