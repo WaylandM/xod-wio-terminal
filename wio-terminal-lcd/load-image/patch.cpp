@@ -7,20 +7,25 @@
 #include<SD/Seeed_SD.h>
 
 node {
+    //define internal state variable
+    bool begun = false;
 
     void evaluate(Context ctx) {
-        if(isSettingUp()){
-            delay(3000);
-            //Initialise SD card
-            if (!SD.begin(SDCARD_SS_PIN, SDCARD_SPI)) {
-                raiseError(ctx);
-                return;
-            }
-        }
-        
+
         // The node responds only if there is an input pulse
         if (!isInputDirty<input_UPD>(ctx))
             return;
+
+        if(!begun){
+            //Initialise SD card
+            begun = SD.begin(SDCARD_SS_PIN, SDCARD_SPI);
+        }
+
+        if (!begun) {
+            // Initialization of SD card failed
+            raiseError(ctx);
+            return;
+        }
 
         // Get a pointer to the `TFT_eSPI tft` class instance
         auto tft = getValue<input_DEV>(ctx);
@@ -34,6 +39,9 @@ node {
 
         File f = SD.open(cString, FILE_READ);
         if (!f){
+            // Failed to open the file. Maybe, SD card gone,
+            // try to reinit next time
+            begun = false;
             raiseError(ctx);
             return;
         }
@@ -56,7 +64,7 @@ node {
             delete [] mem;
         }
 
-        f.close();        
+        f.close();
         
         emitValue<output_Done>(ctx, 1);
     }
