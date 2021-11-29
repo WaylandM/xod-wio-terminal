@@ -1,20 +1,63 @@
 {
   "comments": [
     {
-      "content": "# Navigation",
+      "content": "# Navigate through the sample images using the 5-way-switch.",
       "id": "H1YzwheojdF",
       "position": {
         "units": "slots",
-        "x": -6,
+        "x": -4,
         "y": -2
       },
       "size": {
         "height": 1,
         "units": "slots",
-        "width": 5
+        "width": 13
+      }
+    },
+    {
+      "content": "The 16 bit images used in this example can be found in: https://github.com/WaylandM/xod-wio-terminal/tree/main/images/bmp/rgb565 \n\nAn SD card containing these images must be inserted into the Wio Terminal before running this patch.",
+      "id": "B12OZpfYF",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 13
+      }
+    },
+    {
+      "content": "*To use the Wio Terminal with XOD, you will need to add the following line to* ``` xod/__packages__/extra.txt ```:\n*https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json*",
+      "id": "H1r77aMYF",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 13
+      }
+    },
+    {
+      "content": "The *load-image* node requires a \"special\" bmp file format. Full instructions for preparing image files can be found here:\nhttps://wiki.seeedstudio.com/Wio-Terminal-LCD-Loading-Image/#image-format-configuration\n",
+      "id": "SyWFrazFt",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 16
       }
     }
   ],
+  "description": "Patch to demonstrate loading of images.",
   "links": [
     {
       "id": "Hy9xwhlsiOY",
@@ -543,17 +586,17 @@
     {
       "arityLevel": 4,
       "boundLiterals": {
-        "BkrwKrGhG": "\"rgb565/xod_logo.bmp\"",
-        "HypuFHG3z": "\"rgb565/butterfly.bmp\"",
-        "HypuFHG3z-$1": "\"rgb565/courgettes.bmp\"",
-        "HypuFHG3z-$2": "\"rgb565/church.bmp\"",
-        "HypuFHG3z-$3": "\"rgb565/building.bmp\"",
+        "BkrwKrGhG": "\"xod_logo.bmp\"",
+        "HypuFHG3z": "\"butterfly.bmp\"",
+        "HypuFHG3z-$1": "\"courgettes.bmp\"",
+        "HypuFHG3z-$2": "\"church.bmp\"",
+        "HypuFHG3z-$3": "\"building.bmp\"",
         "HypuFHG3z-$4": "\"rgb565/building.bmp\""
       },
       "id": "BylePhxioOY",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 1
       },
       "type": "xod/core/nth-input"
@@ -565,7 +608,7 @@
       "id": "BkbeDnxsjuF",
       "position": {
         "units": "slots",
-        "x": -1,
+        "x": 0,
         "y": 4
       },
       "type": "@/load-image"
@@ -575,7 +618,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": -1,
+        "x": 0,
         "y": 3
       },
       "type": "xod/patch-nodes/from-bus"
@@ -584,7 +627,7 @@
       "id": "By7lDhljsuK",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 7,
         "y": 2
       },
       "type": "xod/core/pulse-on-change"
@@ -594,7 +637,7 @@
       "label": "Page",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 3,
         "y": -1
       },
       "type": "xod/patch-nodes/from-bus"
@@ -607,7 +650,7 @@
       "id": "B1Blv2lsjdK",
       "position": {
         "units": "slots",
-        "x": -2,
+        "x": -1,
         "y": 1
       },
       "type": "xod/core/if-else"
@@ -620,7 +663,7 @@
       "id": "BJIxP3xis_F",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 1
       },
       "type": "xod/core/if-else"
@@ -632,7 +675,7 @@
       "id": "HJwgw3xsj_F",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/core/equal"
@@ -641,7 +684,7 @@
       "id": "SyOlwngoouK",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 3
       },
       "type": "@/fill-screen"
