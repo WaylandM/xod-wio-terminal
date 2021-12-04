@@ -1,0 +1,35 @@
+{
+  "description": "Create a sprite.",
+  "nodes": [
+    {
+      "id": "SkdO5OHtt",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An LCD device.",
+      "id": "rkUF5uBYY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-lcd-device"
+    },
+    {
+      "id": "Sy5bJEKYt",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
