@@ -1,2 +1,44 @@
 {
+  "nodes": [
+    {
+      "id": "B1JBVq5cK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "S1PH4cqqF",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -2
+      },
+      "type": "@/input-sprite"
+    },
+    {
+      "description": "Update.",
+      "id": "S1zU4ccqt",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "BystVc5qt",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }
