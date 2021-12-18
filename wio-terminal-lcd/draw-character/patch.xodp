@@ -1,18 +1,8 @@
 {
-  "description": "Draw a character.",
   "nodes": [
     {
-      "id": "B1umbicBF",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
       "description": "Pulse on completion.\n",
-      "id": "S1xOX-s5Bt",
+      "id": "rkgCGlci9t",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,22 +12,11 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "An LCD device.",
-      "id": "HyZ_QZi9rY",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-lcd-device"
-    },
-    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "SJMO7bo9BK",
+      "id": "HJMAfx5s9Y",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -51,7 +30,7 @@
         "__out__": "#FFFFFF"
       },
       "description": "Color of character.",
-      "id": "H1XdXbicHY",
+      "id": "S1QRMg9o5F",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -62,7 +41,7 @@
     },
     {
       "description": "X coordinate.",
-      "id": "HkLrbs9HY",
+      "id": "SkVCfl5sqY",
       "label": "X",
       "position": {
         "units": "slots",
@@ -73,7 +52,7 @@
     },
     {
       "description": "Y coordinate.",
-      "id": "Hk-8Zo5BK",
+      "id": "BJSRfxco5F",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -84,7 +63,7 @@
     },
     {
       "description": "Character to draw.",
-      "id": "SyM8ffoHt",
+      "id": "rkUCzl5oct",
       "label": "Char",
       "position": {
         "units": "slots",
@@ -95,7 +74,7 @@
     },
     {
       "description": "Background color.",
-      "id": "BylzIMMsBY",
+      "id": "BkwAzxco9t",
       "label": "BG",
       "position": {
         "units": "slots",
@@ -109,7 +88,7 @@
         "__out__": "01h"
       },
       "description": "Size of character.",
-      "id": "SyWMLMMorY",
+      "id": "S1O0Ml9o5Y",
       "label": "Size",
       "position": {
         "units": "slots",
@@ -117,6 +96,26 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "HJ37l5icK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/abstract"
+    },
+    {
+      "description": "An lcd-device or sprite.",
+      "id": "r1H4x5i5K",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-t1"
     }
   ]
 }

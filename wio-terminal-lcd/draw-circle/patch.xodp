@@ -1,18 +1,8 @@
 {
-  "description": "Draw a circle.",
   "nodes": [
     {
-      "id": "SJRuJaqSF",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
       "description": "Pulse on completion.\n",
-      "id": "HJxRu16qHF",
+      "id": "Byx1fTKj5t",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,22 +12,11 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "An LCD device.",
-      "id": "rJZ0_yacrF",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-lcd-device"
-    },
-    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "S1fAOJacBY",
+      "id": "SkfJfpts5F",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -51,7 +30,7 @@
         "__out__": "#FFFFFF"
       },
       "description": "Color.",
-      "id": "SymAO1pcSF",
+      "id": "rk7JzaFocY",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -62,7 +41,7 @@
     },
     {
       "description": "X coordinate of the origin.",
-      "id": "BkERdJ6qBt",
+      "id": "rk4kfato5t",
       "label": "X",
       "position": {
         "units": "slots",
@@ -73,7 +52,7 @@
     },
     {
       "description": "Y coordinate of the origin.",
-      "id": "H1S0_ypqSF",
+      "id": "S1S1fpKjcK",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -84,7 +63,7 @@
     },
     {
       "description": "Radius",
-      "id": "SkvROya5BF",
+      "id": "rJ8yGTYjcY",
       "label": "R",
       "position": {
         "units": "slots",
@@ -95,7 +74,7 @@
     },
     {
       "description": "True to fill circle with colour, False to draw outline only.",
-      "id": "HJaZqksHt",
+      "id": "rkvJM6tscF",
       "label": "Fill",
       "position": {
         "units": "slots",
@@ -103,6 +82,26 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "HyqzaFo5F",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/abstract"
+    },
+    {
+      "description": "An lcd-device or sprite.",
+      "id": "SkLSats9F",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-t1"
     }
   ]
 }

@@ -1,3 +1,6 @@
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
+
 // Tell XOD where it can download the libraries:
 #pragma XOD require "https://github.com/Seeed-Studio/Seeed_Arduino_FS"
 

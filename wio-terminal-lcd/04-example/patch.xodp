@@ -1513,7 +1513,7 @@
         "x": 25,
         "y": 4
       },
-      "type": "@/draw-character"
+      "type": "@/draw-character(lcd-device)"
     },
     {
       "id": "H1QpCsS2It",
@@ -1541,7 +1541,7 @@
         "x": 12,
         "y": 9
       },
-      "type": "@/fill-screen"
+      "type": "@/fill(lcd-device)"
     },
     {
       "id": "rynwgIhIF",
@@ -1594,7 +1594,7 @@
         "x": 72,
         "y": 3
       },
-      "type": "@/fill-screen"
+      "type": "@/fill(lcd-device)"
     },
     {
       "id": "r1zEulxPt",
@@ -1620,7 +1620,7 @@
         "x": 71,
         "y": 4
       },
-      "type": "@/draw-rectangle"
+      "type": "@/draw-rectangle(lcd-device)"
     },
     {
       "id": "BJRd_eevF",
@@ -1646,7 +1646,7 @@
         "x": 71,
         "y": 10
       },
-      "type": "@/draw-rectangle"
+      "type": "@/draw-rectangle(lcd-device)"
     },
     {
       "id": "B1rUVWewK",
@@ -1724,7 +1724,7 @@
         "x": 17,
         "y": 7
       },
-      "type": "@/draw-string"
+      "type": "@/draw-string(lcd-device)"
     },
     {
       "id": "Hk5P5wnvY",
@@ -1887,7 +1887,7 @@
         "x": 34,
         "y": 4
       },
-      "type": "@/draw-horizontal-line"
+      "type": "@/draw-horizontal-line(lcd-device)"
     },
     {
       "id": "H1BvvI6vF",
@@ -1933,7 +1933,7 @@
         "x": 34,
         "y": 6
       },
-      "type": "@/draw-vertical-line"
+      "type": "@/draw-vertical-line(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -1990,7 +1990,7 @@
         "x": 41,
         "y": 4
       },
-      "type": "@/draw-line"
+      "type": "@/draw-line(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2016,7 +2016,7 @@
         "x": 41,
         "y": 6
       },
-      "type": "@/draw-line"
+      "type": "@/draw-line(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2097,7 +2097,7 @@
         "x": 50,
         "y": 3
       },
-      "type": "@/draw-ellipse"
+      "type": "@/draw-ellipse(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2113,7 +2113,7 @@
         "x": 50,
         "y": 5
       },
-      "type": "@/draw-circle"
+      "type": "@/draw-circle(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2132,7 +2132,7 @@
         "x": 50,
         "y": 4
       },
-      "type": "@/draw-triangle"
+      "type": "@/draw-triangle(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2148,7 +2148,7 @@
         "x": 50,
         "y": 6
       },
-      "type": "@/draw-circle"
+      "type": "@/draw-circle(lcd-device)"
     },
     {
       "id": "rJTy-v6DY",
@@ -2234,7 +2234,7 @@
         "x": 61,
         "y": 4
       },
-      "type": "@/draw-rounded-rectangle"
+      "type": "@/draw-rounded-rectangle(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -2305,7 +2305,7 @@
         "x": 61,
         "y": 6
       },
-      "type": "@/draw-character"
+      "type": "@/draw-character(lcd-device)"
     },
     {
       "id": "Bk1b2DTDt",

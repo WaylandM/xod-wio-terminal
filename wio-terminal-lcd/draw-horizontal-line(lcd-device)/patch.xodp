@@ -1,8 +1,18 @@
 {
+  "description": "Draw a horizontal line (quicker than draw-line node).",
   "nodes": [
     {
+      "id": "S1b_XAqrK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
       "description": "Pulse on completion.\n",
-      "id": "ryl8w7ci9K",
+      "id": "B1ebO7RcHK",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -12,11 +22,22 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "An LCD device.",
+      "id": "B1b-OQAcSt",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lcd-device"
+    },
+    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "r1GLPX9jcY",
+      "id": "ryfWO7Rqrt",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -30,7 +51,7 @@
         "__out__": "#FFFFFF"
       },
       "description": "Line color.",
-      "id": "r1QLP79scY",
+      "id": "Sy7ZuQ0cSK",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -41,7 +62,7 @@
     },
     {
       "description": "X coordinate of the start of the line.",
-      "id": "rJNIvX5jcY",
+      "id": "By4b_QR9Bt",
       "label": "X",
       "position": {
         "units": "slots",
@@ -52,7 +73,7 @@
     },
     {
       "description": "Y coordinate of the start of the line.",
-      "id": "HkHIPmqoqK",
+      "id": "SkSWumRqHK",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -63,7 +84,7 @@
     },
     {
       "description": "Width (pixels).",
-      "id": "HJUIDQ9s9t",
+      "id": "BJUWdQAcBK",
       "label": "W",
       "position": {
         "units": "slots",
@@ -73,24 +94,13 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "ByVuX9i9F",
+      "id": "ryblE5icF",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 2,
         "y": 1
       },
-      "type": "xod/patch-nodes/abstract"
-    },
-    {
-      "description": "An lcd-device or sprite.",
-      "id": "ry3OQ5scF",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-t1"
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }

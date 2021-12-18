@@ -1,3 +1,5 @@
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
 
 node {
     void evaluate(Context ctx) {
@@ -11,11 +13,7 @@ node {
         XColor color24 = getValue<input_Color>(ctx);
         uint16_t color16 = ((color24.r & 0xF8) << 8) | ((color24.g & 0xFC) << 3) | (color24.b >> 3);
 
-        if (getValue<input_Fill>(ctx)) {
-            tft -> fillRect(getValue<input_X>(ctx),  getValue<input_Y>(ctx), getValue<input_W>(ctx), getValue<input_H>(ctx), color16);
-        } else {
-            tft -> drawRect(getValue<input_X>(ctx),  getValue<input_Y>(ctx), getValue<input_W>(ctx), getValue<input_H>(ctx), color16);
-        }
+        tft -> drawFastHLine(getValue<input_X>(ctx),  getValue<input_Y>(ctx), getValue<input_W>(ctx), color16);
 
         emitValue<output_Done>(ctx, 1);
     }

@@ -611,7 +611,7 @@
         "x": 0,
         "y": 4
       },
-      "type": "@/load-image"
+      "type": "@/load-image(lcd-device)"
     },
     {
       "id": "SkGxP2xisdY",
@@ -687,7 +687,7 @@
         "x": 5,
         "y": 3
       },
-      "type": "@/fill-screen"
+      "type": "@/fill(lcd-device)"
     },
     {
       "id": "S1KewnxjoOF",
