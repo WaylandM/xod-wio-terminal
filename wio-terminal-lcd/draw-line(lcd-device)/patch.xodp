@@ -30,7 +30,7 @@
         "x": 0,
         "y": 0
       },
-      "type": "@/input-lcd-device"
+      "type": "@/input-wt-lcd-device"
     },
     {
       "description": "Update.",

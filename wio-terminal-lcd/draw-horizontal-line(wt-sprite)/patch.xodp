@@ -1,8 +1,8 @@
 {
-  "description": "Draw a vertical line on a sprite (quicker than draw-line node).",
+  "description": "Draw a horizontal line on  a sprite (quicker than draw-line node).",
   "nodes": [
     {
-      "id": "SyNFI-2FY",
+      "id": "rJrKAx3KK",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "BygNtU-nKt",
+      "id": "ByeHY0xhKK",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -26,7 +26,7 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "rkMVF8WhYF",
+      "id": "HJGSFAl2FY",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -36,8 +36,11 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
       "description": "Line color.",
-      "id": "SkmNKUb3tY",
+      "id": "SkmSFRx3KK",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -48,7 +51,7 @@
     },
     {
       "description": "X coordinate of the start of the line.",
-      "id": "HkEEtL-hFK",
+      "id": "H1EBt0ghKF",
       "label": "X",
       "position": {
         "units": "slots",
@@ -59,7 +62,7 @@
     },
     {
       "description": "Y coordinate of the start of the line.",
-      "id": "rJrNY8-hYt",
+      "id": "SkHStRxnYt",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -69,9 +72,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Height (pixels)",
-      "id": "SyIVt8ZnYY",
-      "label": "H",
+      "description": "Width (pixels).",
+      "id": "S1LrYCx2YK",
+      "label": "W",
       "position": {
         "units": "slots",
         "x": 3,
@@ -81,14 +84,14 @@
     },
     {
       "description": "A sprite object.",
-      "id": "Hkfq8WntK",
+      "id": "HJ8qAxntt",
       "label": "Sprite",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/input-sprite"
+      "type": "@/input-wt-sprite"
     }
   ]
 }

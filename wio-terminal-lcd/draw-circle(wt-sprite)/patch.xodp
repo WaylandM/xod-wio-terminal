@@ -1,8 +1,8 @@
 {
-  "description": "Draw a character.",
+  "description": "Draw a circle on a sprite.",
   "nodes": [
     {
-      "id": "B1umbicBF",
+      "id": "HyGW3x2tF",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "S1xOX-s5Bt",
+      "id": "HJeM-nghFF",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,26 +22,15 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "An LCD device.",
-      "id": "HyZ_QZi9rY",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-lcd-device"
-    },
-    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "SJMO7bo9BK",
+      "id": "rJfz-hxhYt",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -50,8 +39,8 @@
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
-      "description": "Color of character.",
-      "id": "H1XdXbicHY",
+      "description": "Color.",
+      "id": "rJ7f-2ghKK",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -61,8 +50,8 @@
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate.",
-      "id": "HkLrbs9HY",
+      "description": "X coordinate of the origin.",
+      "id": "Hk4M-3l3KY",
       "label": "X",
       "position": {
         "units": "slots",
@@ -72,8 +61,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate.",
-      "id": "Hk-8Zo5BK",
+      "description": "Y coordinate of the origin.",
+      "id": "HJSMZng2YY",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -83,43 +72,40 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Character to draw.",
-      "id": "SyM8ffoHt",
-      "label": "Char",
+      "description": "Radius",
+      "id": "Bk8MW2l2Ft",
+      "label": "R",
       "position": {
         "units": "slots",
         "x": 3,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-string"
+      "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Background color.",
-      "id": "BylzIMMsBY",
-      "label": "BG",
+      "description": "True to fill circle with colour, False to draw outline only.",
+      "id": "rJvf-2ghtK",
+      "label": "Fill",
       "position": {
         "units": "slots",
         "x": 5,
         "y": 0
       },
-      "type": "xod/color/input-color"
+      "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "boundLiterals": {
-        "__out__": "01h"
-      },
-      "description": "Size of character.",
-      "id": "SyWMLMMorY",
-      "label": "Size",
+      "description": "A wt-sprite object.",
+      "id": "rJ703l2Kt",
+      "label": "Sprite",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 0,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-byte"
+      "type": "@/input-wt-sprite"
     },
     {
-      "id": "HyeMEci9F",
+      "id": "BkDPBn29Y",
       "position": {
         "units": "slots",
         "x": 2,

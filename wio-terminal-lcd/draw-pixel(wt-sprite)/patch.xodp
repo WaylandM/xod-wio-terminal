@@ -80,7 +80,7 @@
         "x": 0,
         "y": 0
       },
-      "type": "@/input-sprite"
+      "type": "@/input-wt-sprite"
     }
   ]
 }

@@ -17,7 +17,7 @@
         "x": 0,
         "y": -2
       },
-      "type": "@/input-sprite"
+      "type": "@/input-wt-sprite"
     },
     {
       "description": "Update.",

@@ -571,7 +571,7 @@
         "x": -8,
         "y": -1
       },
-      "type": "@/lcd-device"
+      "type": "@/wt-lcd-device"
     },
     {
       "id": "rk0v2xosOt",

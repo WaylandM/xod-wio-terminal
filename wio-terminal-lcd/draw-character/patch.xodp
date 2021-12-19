@@ -1,4 +1,5 @@
 {
+  "description": "Draw a character.",
   "nodes": [
     {
       "description": "Pulse on completion.\n",
@@ -107,7 +108,7 @@
       "type": "xod/patch-nodes/abstract"
     },
     {
-      "description": "An lcd-device or sprite.",
+      "description": "A wt-lcd-device or wt-sprite.",
       "id": "r1H4x5i5K",
       "label": "DEV",
       "position": {

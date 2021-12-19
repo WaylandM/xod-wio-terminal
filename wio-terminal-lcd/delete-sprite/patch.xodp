@@ -32,7 +32,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "A sprite object.",
+      "description": "A wt-sprite object.",
       "id": "B1U3OxntY",
       "label": "Sprite",
       "position": {
@@ -40,7 +40,7 @@
         "x": 0,
         "y": 0
       },
-      "type": "@/input-sprite"
+      "type": "@/input-wt-sprite"
     }
   ]
 }

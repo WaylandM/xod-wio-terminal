@@ -1,8 +1,8 @@
 {
-  "description": "Draw a string on a sprite.",
+  "description": "Draw a vertical line on a sprite (quicker than draw-line node).",
   "nodes": [
     {
-      "id": "Sk_IV-nFt",
+      "id": "SyNFI-2FY",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "BkguIV-2Ft",
+      "id": "BygNtU-nKt",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -26,21 +26,18 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "ByM_84W2tt",
+      "id": "rkMVF8WhYF",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "boundLiterals": {
-        "__out__": "#FFFFFF"
-      },
-      "description": "Color of character.",
-      "id": "SJX_LEW3FK",
+      "description": "Line color.",
+      "id": "SkmNKUb3tY",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -50,8 +47,8 @@
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate.",
-      "id": "HJ4O8VZntK",
+      "description": "X coordinate of the start of the line.",
+      "id": "HkEEtL-hFK",
       "label": "X",
       "position": {
         "units": "slots",
@@ -61,8 +58,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate.",
-      "id": "B1Hd84-ntt",
+      "description": "Y coordinate of the start of the line.",
+      "id": "rJrNY8-hYt",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -72,40 +69,26 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "String to draw.",
-      "id": "BkLOUNWhtY",
-      "label": "String",
+      "description": "Height (pixels)",
+      "id": "SyIVt8ZnYY",
+      "label": "H",
       "position": {
         "units": "slots",
         "x": 3,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-string"
-    },
-    {
-      "boundLiterals": {
-        "__out__": "01h"
-      },
-      "description": "Text size multiplier (takes values from 01h to 07h).",
-      "id": "HkPdUNZnFt",
-      "label": "Size",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-byte"
+      "type": "xod/patch-nodes/input-number"
     },
     {
       "description": "A sprite object.",
-      "id": "H1mPVW2KY",
+      "id": "Hkfq8WntK",
       "label": "Sprite",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/input-sprite"
+      "type": "@/input-wt-sprite"
     }
   ]
 }

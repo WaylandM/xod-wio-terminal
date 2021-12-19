@@ -1,8 +1,8 @@
 {
-  "description": "Draw an ellipse on a sprite.",
+  "description": "Draw a character.",
   "nodes": [
     {
-      "id": "HkDcTxhYF",
+      "id": "B1umbicBF",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "r1lD9penKK",
+      "id": "S1xOX-s5Bt",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,11 +22,22 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "A wt-lcd-device.",
+      "id": "HyZ_QZi9rY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-lcd-device"
+    },
+    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "SkGw9TlhKt",
+      "id": "SJMO7bo9BK",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -39,19 +50,19 @@
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
-      "description": "Color.",
-      "id": "SymD5al2YK",
+      "description": "Color of character.",
+      "id": "H1XdXbicHY",
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 0
       },
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate of the origin.",
-      "id": "BJVPqaenYY",
+      "description": "X coordinate.",
+      "id": "HkLrbs9HY",
       "label": "X",
       "position": {
         "units": "slots",
@@ -61,8 +72,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate of the origin.",
-      "id": "ByrD5px3tY",
+      "description": "Y coordinate.",
+      "id": "Hk-8Zo5BK",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -72,48 +83,49 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Horizontal radius (pixels).",
-      "id": "BJ8Pq6l3tY",
-      "label": "RX",
+      "description": "Character to draw.",
+      "id": "SyM8ffoHt",
+      "label": "Char",
       "position": {
         "units": "slots",
         "x": 3,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-number"
+      "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Vertical radius (pixels)",
-      "id": "SJDD5aehtK",
-      "label": "RY",
+      "description": "Background color.",
+      "id": "BylzIMMsBY",
+      "label": "BG",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-number"
+      "type": "xod/color/input-color"
     },
     {
-      "description": "True to fill ellipse with colour, False to draw outline only.",
-      "id": "BJOP5Tx2KY",
-      "label": "Fill",
+      "boundLiterals": {
+        "__out__": "01h"
+      },
+      "description": "Size of character.",
+      "id": "SyWMLMMorY",
+      "label": "Size",
       "position": {
         "units": "slots",
         "x": 6,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-boolean"
+      "type": "xod/patch-nodes/input-byte"
     },
     {
-      "description": "A sprite object.",
-      "id": "BJvsTx3FK",
-      "label": "Sprite",
+      "id": "HyOSHh2ct",
       "position": {
         "units": "slots",
-        "x": 0,
-        "y": 0
+        "x": 2,
+        "y": 1
       },
-      "type": "@/input-sprite"
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }

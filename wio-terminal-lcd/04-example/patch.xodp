@@ -1455,7 +1455,7 @@
         "x": 6,
         "y": 0
       },
-      "type": "@/lcd-device"
+      "type": "@/wt-lcd-device"
     },
     {
       "id": "BJeXOsHh8t",
@@ -1513,7 +1513,7 @@
         "x": 25,
         "y": 4
       },
-      "type": "@/draw-character(lcd-device)"
+      "type": "@/draw-character(wt-lcd-device)"
     },
     {
       "id": "H1QpCsS2It",
@@ -2305,7 +2305,7 @@
         "x": 61,
         "y": 6
       },
-      "type": "@/draw-character(lcd-device)"
+      "type": "@/draw-character(wt-lcd-device)"
     },
     {
       "id": "Bk1b2DTDt",

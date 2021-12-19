@@ -139,7 +139,7 @@
         "x": -1,
         "y": 2
       },
-      "type": "@/lcd-device"
+      "type": "@/wt-lcd-device"
     },
     {
       "id": "SkvxqEmIK",

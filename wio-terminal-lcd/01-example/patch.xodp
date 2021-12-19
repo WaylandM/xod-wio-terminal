@@ -194,7 +194,7 @@
         "x": 6,
         "y": 1
       },
-      "type": "@/lcd-device"
+      "type": "@/wt-lcd-device"
     },
     {
       "id": "BkYlJB38K",

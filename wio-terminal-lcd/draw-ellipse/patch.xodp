@@ -1,4 +1,5 @@
 {
+  "description": "Draw an ellipse.",
   "nodes": [
     {
       "description": "Pulse on completion.\n",
@@ -104,7 +105,7 @@
       "type": "xod/patch-nodes/abstract"
     },
     {
-      "description": "An lcd-device or sprite.",
+      "description": "A wt-lcd-device or wt-sprite.",
       "id": "HJ3J7qj9Y",
       "label": "DEV",
       "position": {

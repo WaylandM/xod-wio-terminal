@@ -308,7 +308,7 @@
         "x": 16,
         "y": -3
       },
-      "type": "@/lcd-device"
+      "type": "@/wt-lcd-device"
     },
     {
       "boundLiterals": {

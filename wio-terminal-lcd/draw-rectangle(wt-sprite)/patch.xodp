@@ -1,8 +1,8 @@
 {
-  "description": "Draw a character on a sprite.",
+  "description": "Draw a rectangle on a sprite. ",
   "nodes": [
     {
-      "id": "rkjgil3tt",
+      "id": "HyyObbhtF",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "rJeigolhKK",
+      "id": "Sygk_bZnKt",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,22 +22,11 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "A sprite object.",
-      "id": "Hybjgoe2FK",
-      "label": "Sprite",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "wayland/wio-terminal-lcd/input-lcd-device"
-    },
-    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "H1zjxox3tt",
+      "id": "ByG1_b-2Kt",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -50,19 +39,19 @@
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
-      "description": "Color of character.",
-      "id": "rJXjgjehtK",
+      "description": "Color.",
+      "id": "HkmJ_W-2FF",
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 0
       },
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate.",
-      "id": "ByEsxix3Kt",
+      "description": "X coordinate of the top-left corner.",
+      "id": "BkVyuWW3KY",
       "label": "X",
       "position": {
         "units": "slots",
@@ -72,8 +61,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate.",
-      "id": "SkHsxsl2YK",
+      "description": "Y coordinate of the top-left corner.",
+      "id": "ryrJdWZntF",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -83,40 +72,47 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Character to draw.",
-      "id": "HyLigig2Ft",
-      "label": "Char",
+      "description": "Width (pixels).",
+      "id": "r1IJO-ZhFF",
+      "label": "W",
       "position": {
         "units": "slots",
         "x": 3,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-string"
+      "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Background color.",
-      "id": "SyPslientK",
-      "label": "BG",
+      "description": "Height (pixels)",
+      "id": "HyvJObb3Kt",
+      "label": "H",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 0
       },
-      "type": "xod/color/input-color"
+      "type": "xod/patch-nodes/input-number"
     },
     {
-      "boundLiterals": {
-        "__out__": "01h"
-      },
-      "description": "Size of character.",
-      "id": "rkuixse2Ft",
-      "label": "Size",
+      "description": "True to fill rectangle with colour, False to draw outline only.",
+      "id": "HJdkObWnFY",
+      "label": "Fill",
       "position": {
         "units": "slots",
         "x": 6,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-byte"
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "HJ0_Wb3YF",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-sprite"
     }
   ]
 }
