@@ -1,8 +1,8 @@
 {
-  "description": "Draw a horizontal line on  a sprite (quicker than draw-line node).",
+  "description": "Draw a horizontal line (quicker than draw-line node).",
   "nodes": [
     {
-      "id": "rJrKAx3KK",
+      "id": "S1b_XAqrK",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "ByeHY0xhKK",
+      "id": "B1ebO7RcHK",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,11 +22,22 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "A wt-lcd-device.",
+      "id": "B1b-OQAcSt",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-lcd-device"
+    },
+    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "HJGSFAl2FY",
+      "id": "ryfWO7Rqrt",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -40,7 +51,7 @@
         "__out__": "#FFFFFF"
       },
       "description": "Line color.",
-      "id": "SkmSFRx3KK",
+      "id": "Sy7ZuQ0cSK",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -51,7 +62,7 @@
     },
     {
       "description": "X coordinate of the start of the line.",
-      "id": "H1EBt0ghKF",
+      "id": "By4b_QR9Bt",
       "label": "X",
       "position": {
         "units": "slots",
@@ -62,7 +73,7 @@
     },
     {
       "description": "Y coordinate of the start of the line.",
-      "id": "SkHStRxnYt",
+      "id": "SkSWumRqHK",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -73,7 +84,7 @@
     },
     {
       "description": "Width (pixels).",
-      "id": "S1LrYCx2YK",
+      "id": "BJUWdQAcBK",
       "label": "W",
       "position": {
         "units": "slots",
@@ -83,18 +94,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "HJ8qAxntt",
-      "label": "Sprite",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-wt-sprite"
-    },
-    {
-      "id": "HkxKIhh9K",
+      "id": "ryblE5icF",
       "position": {
         "units": "slots",
         "x": 2,

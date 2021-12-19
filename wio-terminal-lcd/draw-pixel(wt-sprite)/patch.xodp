@@ -81,6 +81,15 @@
         "y": 0
       },
       "type": "@/input-wt-sprite"
+    },
+    {
+      "id": "S14VfJTqK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }

@@ -1,18 +1,9 @@
 {
-  "description": "Draw a horizontal line on  a sprite (quicker than draw-line node).",
+  "description": "Draw a rectangle.",
   "nodes": [
     {
-      "id": "rJrKAx3KK",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
       "description": "Pulse on completion.\n",
-      "id": "ByeHY0xhKK",
+      "id": "rJgfvXJpqK",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -26,11 +17,11 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "HJGSFAl2FY",
+      "id": "rkzzDX1p9Y",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -39,19 +30,19 @@
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
-      "description": "Line color.",
-      "id": "SkmSFRx3KK",
+      "description": "Color.",
+      "id": "Bk7MPmyaqF",
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 0
       },
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate of the start of the line.",
-      "id": "H1EBt0ghKF",
+      "description": "X coordinate of the top-left corner.",
+      "id": "BJNGvX1T5F",
       "label": "X",
       "position": {
         "units": "slots",
@@ -61,8 +52,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate of the start of the line.",
-      "id": "SkHStRxnYt",
+      "description": "Y coordinate of the top-left corner.",
+      "id": "SkSfDmJacK",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -73,7 +64,7 @@
     },
     {
       "description": "Width (pixels).",
-      "id": "S1LrYCx2YK",
+      "id": "HyLMDmkT5F",
       "label": "W",
       "position": {
         "units": "slots",
@@ -83,24 +74,46 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "HJ8qAxntt",
-      "label": "Sprite",
+      "description": "Height (pixels)",
+      "id": "H1wfPQJ65F",
+      "label": "H",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "True to fill rectangle with colour, False to draw outline only.",
+      "id": "HJOzvm16qF",
+      "label": "Fill",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "rkyuQ1p9Y",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/abstract"
+    },
+    {
+      "description": "A wt-lcd-device or wt-sprite.",
+      "id": "HJRuX1p9Y",
+      "label": "DEV",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/input-wt-sprite"
-    },
-    {
-      "id": "HkxKIhh9K",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
+      "type": "xod/patch-nodes/input-t1"
     }
   ]
 }

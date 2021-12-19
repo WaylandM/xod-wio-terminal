@@ -1,8 +1,8 @@
 {
-  "description": "Set rotation of display. ",
+  "description": "Fill screen with specified color.",
   "nodes": [
     {
-      "id": "BJdzfcZUF",
+      "id": "SyTJoU_rK",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "rkeOMfcZUY",
+      "id": "B1_gsLdHF",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,8 +22,8 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "A wt-lcd-device.",
-      "id": "HybdfMcZIK",
+      "description": "An LCD device.",
+      "id": "S1D4oIuSt",
       "label": "DEV",
       "position": {
         "units": "slots",
@@ -37,7 +37,7 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "BkMOGf9-IY",
+      "id": "ByLUo8dSt",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -47,15 +47,24 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Rotation. Options: 00h (0º), 01h (90º), 02h (180º) and 03h (270º). N.B. the lcd-device node sets the rotation to 03h (270º) as this is the most commonly used orientation.",
-      "id": "Skx3z9-UY",
-      "label": "Rotate",
+      "description": "Fill color.",
+      "id": "SkZ5jUOHY",
+      "label": "Color",
       "position": {
         "units": "slots",
         "x": 1,
         "y": 0
       },
-      "type": "xod/patch-nodes/input-byte"
+      "type": "xod/color/input-color"
+    },
+    {
+      "id": "rkJtMJaqK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }

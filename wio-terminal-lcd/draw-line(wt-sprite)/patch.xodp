@@ -1,4 +1,5 @@
 {
+  "description": "Draw a line on a sprite.",
   "nodes": [
     {
       "id": "Sy44kW3YK",
@@ -99,6 +100,15 @@
         "y": 0
       },
       "type": "@/input-wt-sprite"
+    },
+    {
+      "id": "BkEwQ0h9K",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/utility"
     }
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "description": "Draw a horizontal line (quicker than draw-line node).",
   "nodes": [
     {
       "description": "Pulse on completion.\n",
@@ -82,7 +83,7 @@
       "type": "xod/patch-nodes/abstract"
     },
     {
-      "description": "An lcd-device or sprite.",
+      "description": "A wt-lcd-device or wt-sprite.",
       "id": "ry3OQ5scF",
       "label": "DEV",
       "position": {

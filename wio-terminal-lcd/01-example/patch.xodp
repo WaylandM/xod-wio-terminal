@@ -32,72 +32,6 @@
   "description": "Draw a circle and then edit its appearance using the tweak nodes. Run in debugger.",
   "links": [
     {
-      "id": "HkogkH3LF",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "rJZ0_yacrF"
-      },
-      "output": {
-        "nodeId": "rkcMC43UF",
-        "pinKey": "HJZBMQdSY"
-      }
-    },
-    {
-      "id": "HkPZkShUK",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "SymAO1pcSF"
-      },
-      "output": {
-        "nodeId": "ByM-JrnLK",
-        "pinKey": "SykJ8wjXN"
-      }
-    },
-    {
-      "id": "H1571B2UY",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "BkERdJ6qBt"
-      },
-      "output": {
-        "nodeId": "ryfmkB3Lt",
-        "pinKey": "ByfGSDjQE"
-      }
-    },
-    {
-      "id": "HknmyBn8F",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "H1S0_ypqSF"
-      },
-      "output": {
-        "nodeId": "rkwQyH3UF",
-        "pinKey": "ByfGSDjQE"
-      }
-    },
-    {
-      "id": "ByT7JHnIY",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "SkvROya5BF"
-      },
-      "output": {
-        "nodeId": "S1hvmkBnIF",
-        "pinKey": "ByfGSDjQE"
-      }
-    },
-    {
-      "id": "S1o4yrhIF",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "HJaZqksHt"
-      },
-      "output": {
-        "nodeId": "rJLVJB3LY",
-        "pinKey": "Sk1e_NIVE"
-      }
-    },
-    {
       "id": "ryeweBnUt",
       "input": {
         "nodeId": "ryiLeS38K",
@@ -164,17 +98,6 @@
       }
     },
     {
-      "id": "H1O24-y_t",
-      "input": {
-        "nodeId": "BkYlJB38K",
-        "pinKey": "S1fAOJacBY"
-      },
-      "output": {
-        "nodeId": "SJZh4ZkdY",
-        "pinKey": "ByHmL0uHPk-"
-      }
-    },
-    {
       "id": "HkqnEb1Ot",
       "input": {
         "nodeId": "SJZh4ZkdY",
@@ -183,6 +106,83 @@
       "output": {
         "nodeId": "H12qE-y_F",
         "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "rJRvKAnct",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "SkLSats9F"
+      },
+      "output": {
+        "nodeId": "rkcMC43UF",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "BJx_F0ncY",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "rk4kfato5t"
+      },
+      "output": {
+        "nodeId": "ryfmkB3Lt",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "HyW_KC3qK",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "S1S1fpKjcK"
+      },
+      "output": {
+        "nodeId": "rkwQyH3UF",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "ryzdYA39K",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "rJ8yGTYjcY"
+      },
+      "output": {
+        "nodeId": "S1hvmkBnIF",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "SJmuYA35Y",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "rk7JzaFocY"
+      },
+      "output": {
+        "nodeId": "ByM-JrnLK",
+        "pinKey": "SykJ8wjXN"
+      }
+    },
+    {
+      "id": "Sy4dFC29F",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "rkvJM6tscF"
+      },
+      "output": {
+        "nodeId": "rJLVJB3LY",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "BkUdtAhqK",
+      "input": {
+        "nodeId": "ByjDF0hcK",
+        "pinKey": "SkfJfpts5F"
+      },
+      "output": {
+        "nodeId": "SJZh4ZkdY",
+        "pinKey": "ByHmL0uHPk-"
       }
     }
   ],
@@ -195,15 +195,6 @@
         "y": 1
       },
       "type": "@/wt-lcd-device"
-    },
-    {
-      "id": "BkYlJB38K",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": 2
-      },
-      "type": "@/draw-circle(lcd-device)"
     },
     {
       "boundLiterals": {
@@ -272,7 +263,7 @@
         "x": 14,
         "y": 2
       },
-      "type": "@/fill(lcd-device)"
+      "type": "@/fill(wt-lcd-device)"
     },
     {
       "id": "ryiLeS38K",
@@ -359,6 +350,15 @@
         "y": 1
       },
       "type": "xod/core/any"
+    },
+    {
+      "id": "ByjDF0hcK",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "@/draw-circle"
     }
   ]
 }

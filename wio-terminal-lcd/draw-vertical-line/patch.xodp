@@ -1,18 +1,9 @@
 {
-  "description": "Draw a horizontal line on  a sprite (quicker than draw-line node).",
+  "description": "Draw a vertical line (quicker than draw-line node).",
   "nodes": [
     {
-      "id": "rJrKAx3KK",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
       "description": "Pulse on completion.\n",
-      "id": "ByeHY0xhKK",
+      "id": "rJxyjr1a9Y",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -26,7 +17,7 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "HJGSFAl2FY",
+      "id": "SyGkiryp5F",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -36,11 +27,8 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "boundLiterals": {
-        "__out__": "#FFFFFF"
-      },
       "description": "Line color.",
-      "id": "SkmSFRx3KK",
+      "id": "B1XJiH1p9F",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -51,7 +39,7 @@
     },
     {
       "description": "X coordinate of the start of the line.",
-      "id": "H1EBt0ghKF",
+      "id": "rkNyorkTqt",
       "label": "X",
       "position": {
         "units": "slots",
@@ -62,7 +50,7 @@
     },
     {
       "description": "Y coordinate of the start of the line.",
-      "id": "SkHStRxnYt",
+      "id": "SyHyoHkaqY",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -72,9 +60,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Width (pixels).",
-      "id": "S1LrYCx2YK",
-      "label": "W",
+      "description": "Height (pixels)",
+      "id": "Hk81jH1TqY",
+      "label": "H",
       "position": {
         "units": "slots",
         "x": 3,
@@ -83,24 +71,24 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "HJ8qAxntt",
-      "label": "Sprite",
+      "id": "BJsirkacF",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/abstract"
+    },
+    {
+      "description": "A wt-lcd-device or wt-sprite.",
+      "id": "BkFnB1a5t",
+      "label": "DEV",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/input-wt-sprite"
-    },
-    {
-      "id": "HkxKIhh9K",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
+      "type": "xod/patch-nodes/input-t1"
     }
   ]
 }

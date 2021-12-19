@@ -1,8 +1,8 @@
 {
-  "description": "Draw a horizontal line on  a sprite (quicker than draw-line node).",
+  "description": "Draw a rounded rectangle.",
   "nodes": [
     {
-      "id": "rJrKAx3KK",
+      "id": "BkYzNj5rY",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "ByeHY0xhKK",
+      "id": "ByeKMVoqSt",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,15 +22,26 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "An LCD device.",
+      "id": "BkbYMEicSK",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-lcd-device"
+    },
+    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "HJGSFAl2FY",
+      "id": "rJftfNs5BF",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 8,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -39,19 +50,19 @@
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
-      "description": "Line color.",
-      "id": "SkmSFRx3KK",
+      "description": "Color.",
+      "id": "BkmFzEjqBY",
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 6,
         "y": 0
       },
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate of the start of the line.",
-      "id": "H1EBt0ghKF",
+      "description": "X coordinate of the top-left corner.",
+      "id": "ByVFfNoqHt",
       "label": "X",
       "position": {
         "units": "slots",
@@ -61,8 +72,8 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate of the start of the line.",
-      "id": "SkHStRxnYt",
+      "description": "Y coordinate of the top-left corner.",
+      "id": "rkHYGEiqBY",
       "label": "Y",
       "position": {
         "units": "slots",
@@ -73,7 +84,7 @@
     },
     {
       "description": "Width (pixels).",
-      "id": "S1LrYCx2YK",
+      "id": "rJiQNj5BK",
       "label": "W",
       "position": {
         "units": "slots",
@@ -83,18 +94,40 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "HJ8qAxntt",
-      "label": "Sprite",
+      "description": "Height (pixels)",
+      "id": "SkWNEicBF",
+      "label": "H",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 4,
         "y": 0
       },
-      "type": "@/input-wt-sprite"
+      "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "HkxKIhh9K",
+      "description": "True to fill rectangle with colour, False to draw outline only.",
+      "id": "HJBdqJjrK",
+      "label": "Fill",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Corner radius.",
+      "id": "H1sztxiHF",
+      "label": "R",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "BJiBfJ65Y",
       "position": {
         "units": "slots",
         "x": 2,

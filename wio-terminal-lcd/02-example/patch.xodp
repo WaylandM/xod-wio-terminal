@@ -130,7 +130,7 @@
         "x": -1,
         "y": 3
       },
-      "type": "@/fill(lcd-device)"
+      "type": "@/fill(wt-lcd-device)"
     },
     {
       "id": "rJf3F4QIK",

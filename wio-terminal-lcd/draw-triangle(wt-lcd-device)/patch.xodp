@@ -1,8 +1,8 @@
 {
-  "description": "Draw a rectangle on a sprite. ",
+  "description": "Draw a triangle.",
   "nodes": [
     {
-      "id": "HyyObbhtF",
+      "id": "H15GWj5SF",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "Sygk_bZnKt",
+      "id": "Sklqf-s5SF",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,15 +22,23 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "boundLiterals": {
-        "__out__": "Continuously"
+      "description": "An LCD device.",
+      "id": "SJ-cMbi5rK",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
       },
+      "type": "@/input-wt-lcd-device"
+    },
+    {
       "description": "Update.",
-      "id": "ByG1_b-2Kt",
+      "id": "Hkf5M-j9BF",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 9,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -40,19 +48,19 @@
         "__out__": "#FFFFFF"
       },
       "description": "Color.",
-      "id": "HkmJ_W-2FF",
+      "id": "HkQ5MZo5SY",
       "label": "Color",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 7,
         "y": 0
       },
       "type": "xod/color/input-color"
     },
     {
-      "description": "X coordinate of the top-left corner.",
-      "id": "BkVyuWW3KY",
-      "label": "X",
+      "description": "Vertex #0 x coordinate.",
+      "id": "S1S50T5St",
+      "label": "X0",
       "position": {
         "units": "slots",
         "x": 1,
@@ -61,9 +69,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate of the top-left corner.",
-      "id": "ryrJdWZntF",
-      "label": "Y",
+      "description": "Vertex #0 y coordinate.",
+      "id": "HyYcA65HK",
+      "label": "Y0",
       "position": {
         "units": "slots",
         "x": 2,
@@ -72,9 +80,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Width (pixels).",
-      "id": "r1IJO-ZhFF",
-      "label": "W",
+      "description": "Vertex #1 x coordinate.",
+      "id": "H1q9RacSt",
+      "label": "X1",
       "position": {
         "units": "slots",
         "x": 3,
@@ -83,9 +91,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Height (pixels)",
-      "id": "HyvJObb3Kt",
-      "label": "H",
+      "description": "Vertex #1 y coordinate.",
+      "id": "rkh9q065BY",
+      "label": "Y1",
       "position": {
         "units": "slots",
         "x": 4,
@@ -94,28 +102,40 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "True to fill rectangle with colour, False to draw outline only.",
-      "id": "HJdkObWnFY",
-      "label": "Fill",
+      "description": "Vertex #2 x coordinate.",
+      "id": "rkEpYA5Bt",
+      "label": "X2",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Vertex #2 y coordinate.",
+      "id": "HJx4TtRcBF",
+      "label": "Y2",
       "position": {
         "units": "slots",
         "x": 6,
         "y": 0
       },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "True to fill triangle with colour, False to draw outline only.",
+      "id": "SJnIcCqSt",
+      "label": "Fill",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "id": "HJ0_Wb3YF",
-      "label": "Sprite",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-wt-sprite"
-    },
-    {
-      "id": "SJgHzyp9Y",
+      "id": "ByLDMkacK",
       "position": {
         "units": "slots",
         "x": 2,
