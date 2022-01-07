@@ -100,15 +100,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
-    },
-    {
-      "id": "SkcGzyT9F",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
     }
   ]
 }

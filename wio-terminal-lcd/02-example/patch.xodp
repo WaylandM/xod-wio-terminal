@@ -18,28 +18,6 @@
   "description": "Motion detector. Detect sudden movements (clicks/taps) using the Wio Terminal's inbuilt inertial measurement unit. Screen is green until motion is detected at which point it turns red. Use button A on the Wio Terminal to reset the detector.",
   "links": [
     {
-      "id": "rJV2YVXUt",
-      "input": {
-        "nodeId": "SynsKNQIY",
-        "pinKey": "S1D4oIuSt"
-      },
-      "output": {
-        "nodeId": "rJf3F4QIK",
-        "pinKey": "HJZBMQdSY"
-      }
-    },
-    {
-      "id": "rJXxjNm8K",
-      "input": {
-        "nodeId": "SynsKNQIY",
-        "pinKey": "SkZ5jUOHY"
-      },
-      "output": {
-        "nodeId": "B1gP947UF",
-        "pinKey": "S13xLCuHvkW"
-      }
-    },
-    {
       "id": "HyC_sN7UK",
       "input": {
         "nodeId": "B1gP947UF",
@@ -104,6 +82,28 @@
         "nodeId": "By9g04m8Y",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "r1wLpAr3K",
+      "input": {
+        "nodeId": "rJTB6ArnK",
+        "pinKey": "rkLnP1ZoY"
+      },
+      "output": {
+        "nodeId": "rJf3F4QIK",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "ryFLaAH3t",
+      "input": {
+        "nodeId": "rJTB6ArnK",
+        "pinKey": "HJ7ojPybsK"
+      },
+      "output": {
+        "nodeId": "B1gP947UF",
+        "pinKey": "S13xLCuHvkW"
+      }
     }
   ],
   "nodes": [
@@ -119,18 +119,6 @@
         "y": -1
       },
       "type": "wayland/wio-terminal-sensors/imu-click-detector"
-    },
-    {
-      "boundLiterals": {
-        "SkZ5jUOHY": "#00FF00"
-      },
-      "id": "SynsKNQIY",
-      "position": {
-        "units": "slots",
-        "x": -1,
-        "y": 3
-      },
-      "type": "@/fill(wt-lcd-device)"
     },
     {
       "id": "rJf3F4QIK",
@@ -200,6 +188,15 @@
         "y": 0
       },
       "type": "xod/core/pulse-on-true"
+    },
+    {
+      "id": "rJTB6ArnK",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 3
+      },
+      "type": "@/fill"
     }
   ]
 }

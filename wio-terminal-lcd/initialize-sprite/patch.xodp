@@ -25,12 +25,13 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 3,
         "y": -2
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse on completion.",
       "id": "BystVc5qt",
       "label": "Done",
       "position": {
@@ -39,6 +40,28 @@
         "y": 0
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Width of sprite in pixels.",
+      "id": "Sk8dK1bot",
+      "label": "Width",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Height of sprite in pixels.",
+      "id": "B1OttJZoK",
+      "label": "Height",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }

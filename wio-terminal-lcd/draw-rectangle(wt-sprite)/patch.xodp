@@ -113,15 +113,6 @@
         "y": 0
       },
       "type": "@/input-wt-sprite"
-    },
-    {
-      "id": "SJgHzyp9Y",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
     }
   ]
 }

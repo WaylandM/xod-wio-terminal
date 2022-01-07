@@ -103,15 +103,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
-    },
-    {
-      "id": "S1dbEcs5F",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
     }
   ]
 }

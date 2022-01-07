@@ -43,39 +43,6 @@
       }
     },
     {
-      "id": "rkLugS3It",
-      "input": {
-        "nodeId": "SkiVeS2LY",
-        "pinKey": "S1D4oIuSt"
-      },
-      "output": {
-        "nodeId": "BkWOlBn8Y",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "r1KjeHnUF",
-      "input": {
-        "nodeId": "SkiVeS2LY",
-        "pinKey": "ByLUo8dSt"
-      },
-      "output": {
-        "nodeId": "B1LjgBhLY",
-        "pinKey": "Bkf4BDsmV"
-      }
-    },
-    {
-      "id": "B1EngH3LK",
-      "input": {
-        "nodeId": "SkiVeS2LY",
-        "pinKey": "SkZ5jUOHY"
-      },
-      "output": {
-        "nodeId": "ByyhgB3Ut",
-        "pinKey": "SykJ8wjXN"
-      }
-    },
-    {
       "id": "rk3nmrnLK",
       "input": {
         "nodeId": "HJLc7BnUK",
@@ -184,6 +151,39 @@
         "nodeId": "SJZh4ZkdY",
         "pinKey": "ByHmL0uHPk-"
       }
+    },
+    {
+      "id": "SJN9YcrnF",
+      "input": {
+        "nodeId": "ryHFK9BhF",
+        "pinKey": "rkLnP1ZoY"
+      },
+      "output": {
+        "nodeId": "BkWOlBn8Y",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1U9KcHhY",
+      "input": {
+        "nodeId": "ryHFK9BhF",
+        "pinKey": "HJ7ojPybsK"
+      },
+      "output": {
+        "nodeId": "ByyhgB3Ut",
+        "pinKey": "SykJ8wjXN"
+      }
+    },
+    {
+      "id": "B1u9t5SnY",
+      "input": {
+        "nodeId": "ryHFK9BhF",
+        "pinKey": "H1Gjivy-oK"
+      },
+      "output": {
+        "nodeId": "B1LjgBhLY",
+        "pinKey": "Bkf4BDsmV"
+      }
     }
   ],
   "nodes": [
@@ -255,15 +255,6 @@
         "y": 1
       },
       "type": "xod/debug/tweak-boolean"
-    },
-    {
-      "id": "SkiVeS2LY",
-      "position": {
-        "units": "slots",
-        "x": 14,
-        "y": 2
-      },
-      "type": "@/fill(wt-lcd-device)"
     },
     {
       "id": "ryiLeS38K",
@@ -359,6 +350,15 @@
         "y": 2
       },
       "type": "@/draw-circle"
+    },
+    {
+      "id": "ryHFK9BhF",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 2
+      },
+      "type": "@/fill"
     }
   ]
 }

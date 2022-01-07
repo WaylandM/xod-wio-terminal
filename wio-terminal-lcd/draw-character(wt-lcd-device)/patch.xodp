@@ -117,15 +117,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
-    },
-    {
-      "id": "HyOSHh2ct",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/utility"
     }
   ]
 }

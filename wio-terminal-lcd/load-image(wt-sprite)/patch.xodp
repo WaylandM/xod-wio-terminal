@@ -2,79 +2,79 @@
   "description": "Load image from file.",
   "nodes": [
     {
-      "id": "Hk43aHE_Y",
+      "id": "B1C5A-p9F",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 0,
         "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "A wt-lcd-device.",
-      "id": "r1q06rNOY",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 0
-      },
-      "type": "@/input-wt-lcd-device"
-    },
-    {
       "description": "Path to image file on SD card. Image must be 16-bit.",
-      "id": "Hk-ZRHVOK",
+      "id": "rJ-AqCWp5Y",
       "label": "File",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-string"
     },
     {
       "description": "Update.",
-      "id": "SyiuRHVdF",
+      "id": "r1QA5C-TqK",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
       "description": "Pulse on completion.\n",
-      "id": "rySYCBNdt",
+      "id": "S14CcC-pcF",
       "label": "Done",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 0,
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
       "description": "X coordinate.",
-      "id": "H1AnAJHuF",
+      "id": "HyHAcRb65t",
       "label": "X",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
     },
     {
       "description": "Y coordinate.",
-      "id": "Syl03CJr_F",
+      "id": "ryUCqR-TqF",
       "label": "Y",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "A wt-sprite object.",
+      "id": "SJwFxgWoK",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-sprite"
     }
   ]
 }

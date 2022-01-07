@@ -1,18 +1,9 @@
 {
-  "description": "Fill screen with specified color.",
+  "description": "Fill display or sprite with specified color.",
   "nodes": [
     {
-      "id": "SyTJoU_rK",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
       "description": "Pulse on completion.\n",
-      "id": "B1_gsLdHF",
+      "id": "BkliowyZiF",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -22,22 +13,11 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "A wt-lcd-device.",
-      "id": "S1D4oIuSt",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-wt-lcd-device"
-    },
-    {
       "boundLiterals": {
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "ByLUo8dSt",
+      "id": "H1Gjivy-oK",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -48,7 +28,7 @@
     },
     {
       "description": "Fill color.",
-      "id": "SkZ5jUOHY",
+      "id": "HJ7ojPybsK",
       "label": "Color",
       "position": {
         "units": "slots",
@@ -56,6 +36,26 @@
         "y": 0
       },
       "type": "xod/color/input-color"
+    },
+    {
+      "description": "A wt-lcd-device or wt-sprite.",
+      "id": "rkLnP1ZoY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-t1"
+    },
+    {
+      "id": "H1aCw1WsY",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/abstract"
     }
   ]
 }

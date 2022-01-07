@@ -30,8 +30,8 @@ node {
             return;
         }
 
-        // Get a pointer to the `TFT_eSPI tft` class instance
-        auto tft = getValue<input_DEV>(ctx);
+        // Get a pointer to the `TFT_eSprite sprite` class instance
+        auto spr = getValue<input_Sprite>(ctx);
 
         auto xString = getValue<input_File>(ctx);
         int N=length(xString) + 1;
