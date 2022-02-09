@@ -11,17 +11,6 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Pulse on completion.\n",
-      "id": "rJeigolhKK",
-      "label": "Done",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "description": "A sprite object.",
       "id": "Hybjgoe2FK",
       "label": "Sprite",
@@ -31,20 +20,6 @@
         "y": 0
       },
       "type": "wayland/wio-terminal-lcd/input-lcd-device"
-    },
-    {
-      "boundLiterals": {
-        "__out__": "Continuously"
-      },
-      "description": "Update.",
-      "id": "H1zjxox3tt",
-      "label": "UPD",
-      "position": {
-        "units": "slots",
-        "x": 7,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-pulse"
     },
     {
       "boundLiterals": {
@@ -117,6 +92,16 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "rJkTGa-15",
+      "label": "Sprite'",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/output-wt-sprite"
     }
   ]
 }
