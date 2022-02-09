@@ -1,18 +1,19 @@
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
 
 node {
-    // Internal state variables defined at this level persists across evaluations
-    Number foo;
-    uint8_t bar = 5;
 
     void evaluate(Context ctx) {
-        bar += 42;
+        // The node responds only if there is an input pulse
+        if (!isInputDirty<input_UPD>(ctx))
+            return;
 
-        if (isSettingUp()) {
-            // This run once
-            foo = (Number)(bar + 1);
-        }
+        // Get a pointer to the `TFT_eSprite sprite` class instance
+        auto spr = getValue<input_Sprite>(ctx);
 
-        auto inValue = getValue<input_IN>(ctx);
-        emitValue<output_OUT>(ctx, inValue);
+        // initialize sprite
+        spr -> createSprite(getValue<input_Width>(ctx), getValue<input_Height>(ctx));
+
+        emitValue<output_Done>(ctx, 1);
     }
 }

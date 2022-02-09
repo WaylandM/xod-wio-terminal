@@ -11,17 +11,6 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "A Wio Terminal LCD device.",
-      "id": "SJsQijctt",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": -1
-      },
-      "type": "wayland/wio-terminal-lcd/input-lcd-device"
-    },
-    {
       "description": "A sprite object.",
       "id": "rygdjicFY",
       "label": "Sprite",
@@ -31,6 +20,17 @@
         "y": 1
       },
       "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "description": "A wt-lcd-device.",
+      "id": "HyzbPOV0t",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -1
+      },
+      "type": "@/input-wt-lcd-device"
     }
   ]
 }

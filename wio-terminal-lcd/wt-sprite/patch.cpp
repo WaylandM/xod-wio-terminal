@@ -1,5 +1,3 @@
-//Include C++ libraries
-#include"TFT_eSPI.h"
 
 node {
 
@@ -19,6 +17,6 @@ node {
 
         Type spr = new (mem) TFT_eSprite(tft);
 
-        emitValue<output_Sprite>(ctx, &spr);
+        emitValue<output_Sprite>(ctx, spr);
     }
 }

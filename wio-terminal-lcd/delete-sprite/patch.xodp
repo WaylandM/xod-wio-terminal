@@ -1,5 +1,5 @@
 {
-  "description": "Delete the sprite to free RAM.",
+  "description": "Delete content of sprite to free RAM. N.B. APPEARS NOT TO WORK AT PRESENT.",
   "nodes": [
     {
       "id": "SyPu_xhYY",
@@ -22,6 +22,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse on deletion.",
       "id": "SkiqughtF",
       "label": "Done",
       "position": {

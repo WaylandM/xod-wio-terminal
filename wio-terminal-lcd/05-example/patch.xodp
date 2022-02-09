@@ -43,7 +43,7 @@
       }
     },
     {
-      "content": "The *load-image* node requires a \"special\" bmp file format. Full instructions for preparing image files can be found here:\nhttps://wiki.seeedstudio.com/Wio-Terminal-LCD-Loading-Image/#image-format-configuration\n",
+      "content": "The *load-image* node requires a \"special\" 16-bit bmp file format. Full instructions for preparing image files can be found here:\nhttps://wiki.seeedstudio.com/Wio-Terminal-LCD-Loading-Image/#image-format-configuration\n",
       "id": "SyWFrazFt",
       "position": {
         "units": "slots",
@@ -247,28 +247,6 @@
       }
     },
     {
-      "id": "HkaZvnljj_F",
-      "input": {
-        "nodeId": "BkbeDnxsjuF",
-        "pinKey": "r1q06rNOY"
-      },
-      "output": {
-        "nodeId": "SkGxP2xisdY",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "S1Rbv3giidK",
-      "input": {
-        "nodeId": "BkbeDnxsjuF",
-        "pinKey": "Hk-ZRHVOK"
-      },
-      "output": {
-        "nodeId": "BylePhxioOY",
-        "pinKey": "r1ctYrM3G"
-      }
-    },
-    {
       "id": "rkJMvhgjsdt",
       "input": {
         "nodeId": "By7lDhljsuK",
@@ -310,61 +288,6 @@
       "output": {
         "nodeId": "HkVeD3esodt",
         "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "rk7MP2goouK",
-      "input": {
-        "nodeId": "BkbeDnxsjuF",
-        "pinKey": "H1AnAJHuF"
-      },
-      "output": {
-        "nodeId": "B1Blv2lsjdK",
-        "pinKey": "S13xLCuHvkW"
-      }
-    },
-    {
-      "id": "SJVfvheijOY",
-      "input": {
-        "nodeId": "BkbeDnxsjuF",
-        "pinKey": "Syl03CJr_F"
-      },
-      "output": {
-        "nodeId": "BJIxP3xis_F",
-        "pinKey": "S13xLCuHvkW"
-      }
-    },
-    {
-      "id": "BkSMvnlsouY",
-      "input": {
-        "nodeId": "SyOlwngoouK",
-        "pinKey": "S1D4oIuSt"
-      },
-      "output": {
-        "nodeId": "S1KewnxjoOF",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "HkLfP3esjdF",
-      "input": {
-        "nodeId": "SyOlwngoouK",
-        "pinKey": "ByLUo8dSt"
-      },
-      "output": {
-        "nodeId": "By7lDhljsuK",
-        "pinKey": "ByAIWR_UZ"
-      }
-    },
-    {
-      "id": "HyDfDngjodK",
-      "input": {
-        "nodeId": "BkbeDnxsjuF",
-        "pinKey": "SyiuRHVdF"
-      },
-      "output": {
-        "nodeId": "SyOlwngoouK",
-        "pinKey": "B1_gsLdHF"
       }
     },
     {
@@ -467,14 +390,36 @@
       }
     },
     {
-      "id": "HJIfq1I2t",
+      "id": "rkUXG-8nY",
+      "input": {
+        "nodeId": "rJCGzb83F",
+        "pinKey": "H1Gjivy-oK"
+      },
+      "output": {
+        "nodeId": "By7lDhljsuK",
+        "pinKey": "ByAIWR_UZ"
+      }
+    },
+    {
+      "id": "B1mNGZI2K",
       "input": {
         "nodeId": "S1gwHyInF",
         "pinKey": "SJmpsRW69F"
       },
       "output": {
-        "nodeId": "SyOlwngoouK",
-        "pinKey": "B1_gsLdHF"
+        "nodeId": "rJCGzb83F",
+        "pinKey": "BkliowyZiF"
+      }
+    },
+    {
+      "id": "rk_VfWI2F",
+      "input": {
+        "nodeId": "rJCGzb83F",
+        "pinKey": "rkLnP1ZoY"
+      },
+      "output": {
+        "nodeId": "S1KewnxjoOF",
+        "pinKey": "__out__"
       }
     }
   ],
@@ -657,18 +602,6 @@
       "type": "xod/core/nth-input"
     },
     {
-      "boundLiterals": {
-        "rk1rCrVut": "True"
-      },
-      "id": "BkbeDnxsjuF",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 4
-      },
-      "type": "@/load-image(wt-lcd-device)"
-    },
-    {
       "id": "SkGxP2xisdY",
       "label": "DEV",
       "position": {
@@ -736,15 +669,6 @@
       "type": "xod/core/equal"
     },
     {
-      "id": "SyOlwngoouK",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 3
-      },
-      "type": "@/fill(wt-lcd-device)"
-    },
-    {
       "id": "S1KewnxjoOF",
       "label": "DEV",
       "position": {
@@ -786,9 +710,18 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 5
+        "y": 4
       },
       "type": "@/load-image"
+    },
+    {
+      "id": "rJCGzb83F",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/fill"
     }
   ]
 }

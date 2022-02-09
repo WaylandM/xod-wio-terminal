@@ -6,7 +6,7 @@
       "position": {
         "units": "slots",
         "x": -4,
-        "y": 4
+        "y": 5
       },
       "size": {
         "height": 1,
@@ -84,10 +84,10 @@
       }
     },
     {
-      "id": "r1wLpAr3K",
+      "id": "Hksdid-J9",
       "input": {
-        "nodeId": "rJTB6ArnK",
-        "pinKey": "rkLnP1ZoY"
+        "nodeId": "H10voubk5",
+        "pinKey": "S1D4oIuSt"
       },
       "output": {
         "nodeId": "rJf3F4QIK",
@@ -95,14 +95,36 @@
       }
     },
     {
-      "id": "ryFLaAH3t",
+      "id": "r1Cds_Zy5",
       "input": {
-        "nodeId": "rJTB6ArnK",
-        "pinKey": "HJ7ojPybsK"
+        "nodeId": "H10voubk5",
+        "pinKey": "SkZ5jUOHY"
       },
       "output": {
         "nodeId": "B1gP947UF",
         "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "rkz2oOb1q",
+      "input": {
+        "nodeId": "H1TsiO-k9",
+        "pinKey": "BkjI-COLb"
+      },
+      "output": {
+        "nodeId": "B1gP947UF",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "rk42idZ1c",
+      "input": {
+        "nodeId": "H10voubk5",
+        "pinKey": "ByLUo8dSt"
+      },
+      "output": {
+        "nodeId": "H1TsiO-k9",
+        "pinKey": "ByAIWR_UZ"
       }
     }
   ],
@@ -190,13 +212,22 @@
       "type": "xod/core/pulse-on-true"
     },
     {
-      "id": "rJTB6ArnK",
+      "id": "H10voubk5",
       "position": {
         "units": "slots",
         "x": -1,
+        "y": 4
+      },
+      "type": "@/fill(wt-lcd-device)"
+    },
+    {
+      "id": "H1TsiO-k9",
+      "position": {
+        "units": "slots",
+        "x": 1,
         "y": 3
       },
-      "type": "@/fill"
+      "type": "xod/core/pulse-on-change"
     }
   ]
 }

@@ -57,7 +57,7 @@ node {
 
         uint16_t *mem = new uint16_t[size/2];
         f.read(mem, size);
-        tft->pushImage(getValue<input_X>(ctx), getValue<input_Y>(ctx), w, h, mem);
+        spr->pushImage(getValue<input_X>(ctx), getValue<input_Y>(ctx), w, h, mem);
         delete [] mem;
 
         /* The following code chunk was used to facilitate loading both 8 and 16-bit images. However, for simplicity, the option to choose between 8 and 16-bit images has been removed.
