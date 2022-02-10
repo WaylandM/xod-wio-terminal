@@ -11,31 +11,6 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Pulse on completion.\n",
-      "id": "r1x9EeZ3FF",
-      "label": "Done",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "boundLiterals": {
-        "__out__": "Continuously"
-      },
-      "description": "Update.",
-      "id": "rJG5VlZhFt",
-      "label": "UPD",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-pulse"
-    },
-    {
       "boundLiterals": {
         "__out__": "#FFFFFF"
       },
@@ -81,6 +56,16 @@
         "y": 0
       },
       "type": "@/input-wt-sprite"
+    },
+    {
+      "id": "Hya21dGkc",
+      "label": "Sprite'",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/output-wt-sprite"
     }
   ]
 }

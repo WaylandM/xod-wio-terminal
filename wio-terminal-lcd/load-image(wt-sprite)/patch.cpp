@@ -15,10 +15,6 @@ node {
 
     void evaluate(Context ctx) {
 
-        // The node responds only if there is an input pulse
-        if (!isInputDirty<input_UPD>(ctx))
-            return;
-
         if(!begun){
             //Initialise SD card
             begun = SD.begin(SDCARD_SS_PIN, SDCARD_SPI);
@@ -76,6 +72,6 @@ node {
 
         f.close();
         
-        emitValue<output_Done>(ctx, 1);
+        emitValue<output_SpriteU0027>(ctx, spr);
     }
 }

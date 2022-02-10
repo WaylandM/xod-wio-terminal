@@ -3,9 +3,6 @@
 
 node {
     void evaluate(Context ctx) {
-        // The node responds only if there is an input pulse
-        if (!isInputDirty<input_UPD>(ctx))
-            return;
 
         // Get a pointer to the `TFT_eSprite sprite` class instance
         auto spr = getValue<input_Sprite>(ctx);
@@ -15,6 +12,6 @@ node {
         
         spr -> fillSprite(color16);
 
-        emitValue<output_Done>(ctx, 1);
+        emitValue<output_SpriteU0027>(ctx, spr);
     }
 }

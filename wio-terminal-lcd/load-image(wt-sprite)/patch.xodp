@@ -22,28 +22,6 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Update.",
-      "id": "r1QA5C-TqK",
-      "label": "UPD",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-pulse"
-    },
-    {
-      "description": "Pulse on completion.\n",
-      "id": "S14CcC-pcF",
-      "label": "Done",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "description": "X coordinate.",
       "id": "HyHAcRb65t",
       "label": "X",
@@ -75,6 +53,16 @@
         "y": 0
       },
       "type": "@/input-wt-sprite"
+    },
+    {
+      "id": "rJNILAMyc",
+      "label": "Sprite'",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/output-wt-sprite"
     }
   ]
 }

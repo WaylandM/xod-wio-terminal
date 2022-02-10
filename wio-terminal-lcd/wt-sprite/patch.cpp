@@ -17,6 +17,10 @@ node {
 
         Type spr = new (mem) TFT_eSprite(tft);
 
+        // initialize sprite
+        spr -> createSprite(getValue<input_Width>(ctx), getValue<input_Height>(ctx));
+
+
         emitValue<output_Sprite>(ctx, spr);
     }
 }

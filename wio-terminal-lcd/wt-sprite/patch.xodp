@@ -31,6 +31,28 @@
         "y": -1
       },
       "type": "@/input-wt-lcd-device"
+    },
+    {
+      "description": "Width of sprite in pixels.",
+      "id": "S1hkXG7kc",
+      "label": "Width",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Height of sprite in pixels.",
+      "id": "rJgn1QMXyq",
+      "label": "Height",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }
