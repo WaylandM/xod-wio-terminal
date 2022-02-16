@@ -1,2 +1,69 @@
 {
+  "description": "Push the sprite to the LCD at the coordinates X, Y.",
+  "nodes": [
+    {
+      "id": "BJiw0loJc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A wt-sprite object.",
+      "id": "SkljPRxiy5",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-wt-sprite"
+    },
+    {
+      "description": "Update.",
+      "id": "H1biP0eo1q",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "ryfovAloJc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "X coordinate.",
+      "id": "S1suRgsk9",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate.",
+      "id": "Hy0OAgjJ5",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
 }

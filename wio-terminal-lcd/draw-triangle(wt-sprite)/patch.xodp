@@ -102,7 +102,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
-      "description": "A sprite object.",
+      "description": "A wt-sprite object.",
       "id": "SJI3S-2YY",
       "label": "Sprite",
       "position": {
@@ -113,6 +113,7 @@
       "type": "@/input-wt-sprite"
     },
     {
+      "description": "A wt-sprite object.",
       "id": "H1TIEAzkq",
       "label": "Sprite'",
       "position": {

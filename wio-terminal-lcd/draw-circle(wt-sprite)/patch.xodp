@@ -80,6 +80,7 @@
       "type": "@/input-wt-sprite"
     },
     {
+      "description": "A wt-sprite object.",
       "id": "Bks7AQ6Wyc",
       "label": "Sprite'",
       "position": {

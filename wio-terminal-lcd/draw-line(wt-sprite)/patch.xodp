@@ -69,7 +69,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A sprite object.",
+      "description": "A wt-sprite object.",
       "id": "SJzSkWhYF",
       "label": "Sprite",
       "position": {
@@ -80,6 +80,7 @@
       "type": "@/input-wt-sprite"
     },
     {
+      "description": "A wt-sprite object.",
       "id": "r1GqJdzJ5",
       "label": "Sprite'",
       "position": {

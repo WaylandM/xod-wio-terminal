@@ -72,7 +72,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
-      "description": "A sprite object.",
+      "description": "A wt-sprite object.",
       "id": "H1mPVW2KY",
       "label": "Sprite",
       "position": {
@@ -83,6 +83,7 @@
       "type": "@/input-wt-sprite"
     },
     {
+      "description": "A wt-sprite object.",
       "id": "r1L3-CGkq",
       "label": "Sprite'",
       "position": {

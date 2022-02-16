@@ -1,2 +1,58 @@
 {
+  "description": "Push a rotated copy of the sprite to the LCD.",
+  "nodes": [
+    {
+      "id": "H1To1WjJ5",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A wt-sprite object.",
+      "id": "rJgao1bikq",
+      "label": "Sprite",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/input-wt-sprite"
+    },
+    {
+      "description": "Update.",
+      "id": "r1Z6sJ-s19",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SyMaiy-s19",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Angle of rotation (degrees).",
+      "id": "HymaoJbjJq",
+      "label": "Angle",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
 }

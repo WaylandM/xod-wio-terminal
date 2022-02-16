@@ -11,7 +11,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "A sprite object.",
+      "description": "A wt-sprite object.",
       "id": "rygdjicFY",
       "label": "Sprite",
       "position": {

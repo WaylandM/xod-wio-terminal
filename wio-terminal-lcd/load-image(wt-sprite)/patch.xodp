@@ -55,6 +55,7 @@
       "type": "@/input-wt-sprite"
     },
     {
+      "description": "A wt-sprite object.",
       "id": "rJNILAMyc",
       "label": "Sprite'",
       "position": {
