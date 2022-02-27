@@ -1,6 +1,3 @@
-#pragma XOD evaluate_on_pin disable
-#pragma XOD evaluate_on_pin enable input_UPD
-
 // Tell XOD where it can download the libraries:
 #pragma XOD require "https://github.com/Seeed-Studio/Seeed_Arduino_FS"
 
@@ -53,6 +50,7 @@ node {
 
         uint16_t *mem = new uint16_t[size/2];
         f.read(mem, size);
+        spr->setSwapBytes(true);
         spr->pushImage(getValue<input_X>(ctx), getValue<input_Y>(ctx), w, h, mem);
         delete [] mem;
 

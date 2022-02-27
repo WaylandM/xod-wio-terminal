@@ -1,2 +1,145 @@
 {
+  "links": [
+    {
+      "id": "Hy5_gEYe5",
+      "input": {
+        "nodeId": "SytuxEtg9",
+        "pinKey": "HyzbPOV0t"
+      },
+      "output": {
+        "nodeId": "HJ7ug4Fec",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "Hy_CgVYx5",
+      "input": {
+        "nodeId": "rJdagEKe5",
+        "pinKey": "SJwFxgWoK"
+      },
+      "output": {
+        "nodeId": "SytuxEtg9",
+        "pinKey": "rygdjicFY"
+      }
+    },
+    {
+      "id": "B1P8W4Ylc",
+      "input": {
+        "nodeId": "Bk9Vb4txq",
+        "pinKey": "S1D4oIuSt"
+      },
+      "output": {
+        "nodeId": "HJ7ug4Fec",
+        "pinKey": "HJZBMQdSY"
+      }
+    },
+    {
+      "id": "SksuZ4Yxq",
+      "input": {
+        "nodeId": "SyzzZNtlq",
+        "pinKey": "H1biP0eo1q"
+      },
+      "output": {
+        "nodeId": "Bk9Vb4txq",
+        "pinKey": "B1_gsLdHF"
+      }
+    },
+    {
+      "id": "Bys-LBYe9",
+      "input": {
+        "nodeId": "rJtWLSKxc",
+        "pinKey": "rJ703l2Kt"
+      },
+      "output": {
+        "nodeId": "rJdagEKe5",
+        "pinKey": "rJNILAMyc"
+      }
+    },
+    {
+      "id": "SJTWLHKe5",
+      "input": {
+        "nodeId": "SyzzZNtlq",
+        "pinKey": "SkljPRxiy5"
+      },
+      "output": {
+        "nodeId": "rJtWLSKxc",
+        "pinKey": "Bks7AQ6Wyc"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJ7ug4Fec",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/wt-lcd-device"
+    },
+    {
+      "boundLiterals": {
+        "S1hkXG7kc": "196",
+        "rJgn1QMXyq": "119"
+      },
+      "id": "SytuxEtg9",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/wt-sprite"
+    },
+    {
+      "boundLiterals": {
+        "rJ-AqCWp5Y": "\"xod_logo.bmp\""
+      },
+      "id": "rJdagEKe5",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "@/load-image(wt-sprite)"
+    },
+    {
+      "boundLiterals": {
+        "Hy0OAgjJ5": "50",
+        "S1suRgsk9": "62"
+      },
+      "id": "SyzzZNtlq",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 5
+      },
+      "type": "@/push-sprite"
+    },
+    {
+      "boundLiterals": {
+        "ByLUo8dSt": "On Boot"
+      },
+      "id": "Bk9Vb4txq",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "@/fill(wt-lcd-device)"
+    },
+    {
+      "boundLiterals": {
+        "Bk8MW2l2Ft": "10",
+        "HJSMZng2YY": "10",
+        "Hk4M-3l3KY": "10"
+      },
+      "id": "rJtWLSKxc",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "@/draw-circle(wt-sprite)"
+    }
+  ]
 }
