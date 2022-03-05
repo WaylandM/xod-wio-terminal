@@ -1,3 +1,6 @@
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
+
 // Tell XOD where it can download the libraries:
 #pragma XOD require "https://github.com/Seeed-Studio/Seeed_Arduino_FS"
 
@@ -11,6 +14,9 @@ node {
     bool begun = false;
 
     void evaluate(Context ctx) {
+        // The node responds only if there is an input pulse
+        if (!isInputDirty<input_UPD>(ctx))
+            return;
 
         if(!begun){
             //Initialise SD card
@@ -70,6 +76,6 @@ node {
 
         f.close();
         
-        emitValue<output_SpriteU0027>(ctx, spr);
+        emitValue<output_Done>(ctx, 1);
     }
 }

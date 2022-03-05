@@ -80,15 +80,29 @@
       "type": "@/input-wt-sprite"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "Bks7AQ6Wyc",
-      "label": "Sprite'",
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update.",
+      "id": "r1P-JXbWc",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.\n",
+      "id": "rkevWy7-b5",
+      "label": "Done",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 2
       },
-      "type": "@/output-wt-sprite"
+      "type": "xod/patch-nodes/output-pulse"
     }
   ]
 }

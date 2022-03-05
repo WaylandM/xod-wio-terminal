@@ -55,15 +55,26 @@
       "type": "@/input-wt-sprite"
     },
     {
-      "description": "A wt-sprite object.",
-      "id": "rJNILAMyc",
-      "label": "Sprite'",
+      "description": "Update.",
+      "id": "SJek0Xbb9",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.\n",
+      "id": "H1lxk0m-Zq",
+      "label": "Done",
       "position": {
         "units": "slots",
         "x": 0,
         "y": 2
       },
-      "type": "@/output-wt-sprite"
+      "type": "xod/patch-nodes/output-pulse"
     }
   ]
 }

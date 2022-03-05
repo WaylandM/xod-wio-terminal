@@ -10,7 +10,7 @@ node {
         // Get a pointer to the `TFT_eSprite sprite` class instance
         auto spr = getValue<input_Sprite>(ctx);
 
-        spr -> pushRotated(getValue<input_Angle>(ctx);
+        spr -> pushRotated(getValue<input_Angle>(ctx));
 
         emitValue<output_Done>(ctx, 1);
     }
