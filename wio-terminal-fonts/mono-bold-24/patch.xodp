@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Mono bold 24 point\" font.",
+  "nodes": [
+    {
+      "id": "BJcwcxVb9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Mono bold 24 point\" font.",
+      "id": "SygcP5xVZc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

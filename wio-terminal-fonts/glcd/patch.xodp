@@ -1,0 +1,25 @@
+{
+  "description": "Load GLCD font.",
+  "nodes": [
+    {
+      "id": "rJiuVx4bq",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "GLCD font.",
+      "id": "SkdYEeN-9",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans 24 point\" font.",
+  "nodes": [
+    {
+      "id": "rJWS1Z4W9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans 24 point\" font.",
+      "id": "ryxbHy-Nbc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

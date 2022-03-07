@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans 12 point\" font.",
+  "nodes": [
+    {
+      "id": "B1jJk-N-9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans 12 point\" font.",
+      "id": "rylsyk-Nb5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

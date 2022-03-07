@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Mono bold oblique 12 point\" font.",
+  "nodes": [
+    {
+      "id": "BkB9sxEWc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Mono bold oblique 12 point\" font.",
+      "id": "H1gS9jg4Wc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

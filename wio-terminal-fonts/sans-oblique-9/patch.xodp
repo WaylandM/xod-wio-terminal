@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans oblique 9 point\" font.",
+  "nodes": [
+    {
+      "id": "By6A4WEbq",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans oblique 9 point\" font.",
+      "id": "rkgpAEbNZc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

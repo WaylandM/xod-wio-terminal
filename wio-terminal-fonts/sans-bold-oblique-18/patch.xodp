@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans bold oblique 18 point\" font.",
+  "nodes": [
+    {
+      "id": "H16Vb-E-9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans bold oblique 18 point\" font.",
+      "id": "rkxT4b-Nb5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

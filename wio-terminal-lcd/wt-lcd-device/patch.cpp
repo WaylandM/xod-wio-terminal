@@ -1,8 +1,8 @@
-#pragma XOD require "https://github.com/WaylandM/xod-wio-terminal"
+#pragma XOD require "https://github.com/WaylandM/wio-terminal"
 
 //Include C++ libraries
-#include"TFT_eSPI.h"
-#include"Free_Fonts.h"
+#include "TFT_eSPI.h"
+#include "Free_Fonts.h"
 
 node {
 

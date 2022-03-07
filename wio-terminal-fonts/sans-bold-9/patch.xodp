@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans bold 9 point\" font.",
+  "nodes": [
+    {
+      "id": "Hyudlb4W5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans bold 9 point\" font.",
+      "id": "rJgOdebNWc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}

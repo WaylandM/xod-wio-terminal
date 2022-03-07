@@ -1,0 +1,25 @@
+{
+  "description": "Load \"Sans oblique 18 point\" font.",
+  "nodes": [
+    {
+      "id": "ByFpMbNWc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Sans oblique 18 point\" font.",
+      "id": "HJlt6fZ4b5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
+}
