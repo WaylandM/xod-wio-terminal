@@ -1,2 +1,25 @@
 {
+  "description": "Load \"Serif bold 9 point\" font.",
+  "nodes": [
+    {
+      "id": "BkHYyM4bq",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Serif bold 9 point\" font.",
+      "id": "BkgSYJfVW5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
 }

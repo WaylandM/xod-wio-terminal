@@ -1,2 +1,25 @@
 {
+  "description": "Load \"Serif bold italic 24 point\" font.",
+  "nodes": [
+    {
+      "id": "HyqrxMNbc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Serif bold italic 24 point\" font.",
+      "id": "BygcBgfEZq",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
 }

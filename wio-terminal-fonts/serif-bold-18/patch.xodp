@@ -1,2 +1,25 @@
 {
+  "description": "Load \"Serif bold 18 point\" font.",
+  "nodes": [
+    {
+      "id": "B1TGyMVZ5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Serif bold 18 point\" font.",
+      "id": "SylTzJMNZ5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
 }

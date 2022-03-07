@@ -1,2 +1,25 @@
 {
+  "description": "Load \"Serif bold italic 9 point\" font.",
+  "nodes": [
+    {
+      "id": "S1juxG4Z5",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "\"Serif bold italic 9 point\" font.",
+      "id": "B1ejOgz4Zc",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": 1
+      },
+      "type": "@/output-font"
+    }
+  ]
 }
