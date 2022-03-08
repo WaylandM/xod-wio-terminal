@@ -19,6 +19,8 @@ node {
         XColor bg24 = getValue<input_BG>(ctx);
         uint16_t bg16 = ((bg24.r & 0xF8) << 8) | ((bg24.g & 0xFC) << 3) | (bg24.b >> 3);
 
+        tft -> setFreeFont(getValue<input_Font>(ctx));
+
         tft -> drawChar(getValue<input_X>(ctx),
                         getValue<input_Y>(ctx),
                         *it,

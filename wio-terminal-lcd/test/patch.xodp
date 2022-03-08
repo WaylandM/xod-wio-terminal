@@ -34,10 +34,10 @@
       }
     },
     {
-      "id": "SylVV2Mb5",
+      "id": "BkKZkAEWq",
       "input": {
-        "nodeId": "rkRmNhGbq",
-        "pinKey": "SkNdBqz-q"
+        "nodeId": "rJX-kANWc",
+        "pinKey": "HyZ_QZi9rY"
       },
       "output": {
         "nodeId": "Hy4gM3G-5",
@@ -45,25 +45,14 @@
       }
     },
     {
-      "id": "rJ9VNhzZ9",
+      "id": "Hy6WJR4Wc",
       "input": {
-        "nodeId": "rkRmNhGbq",
-        "pinKey": "H1Dwx2zb5"
+        "nodeId": "rJX-kANWc",
+        "pinKey": "SJMO7bo9BK"
       },
       "output": {
-        "nodeId": "By_EN2z-9",
-        "pinKey": "HJrPaiMWq"
-      }
-    },
-    {
-      "id": "HJbHN2zWq",
-      "input": {
-        "nodeId": "SJelmhM-5",
-        "pinKey": "ByLUo8dSt"
-      },
-      "output": {
-        "nodeId": "rkRmNhGbq",
-        "pinKey": "ByDsH5Gb5"
+        "nodeId": "SJT1M2MW9",
+        "pinKey": "S1xOX-s5Bt"
       }
     }
   ],
@@ -72,7 +61,7 @@
       "boundLiterals": {
         "Hk-8Zo5BK": "20",
         "HkLrbs9HY": "20",
-        "SyM8ffoHt": "\"XOD\"",
+        "SyM8ffoHt": "\"Serif b it 24pt\"",
         "SyWMLMMorY": "01h"
       },
       "id": "SJT1M2MW9",
@@ -100,30 +89,22 @@
       "position": {
         "units": "slots",
         "x": 3,
-        "y": 3
+        "y": 2
       },
       "type": "@/fill(wt-lcd-device)"
     },
     {
       "boundLiterals": {
-        "rJWqrqzWc": "On Boot"
+        "Hk-8Zo5BK": "120",
+        "SyM8ffoHt": "\"X\""
       },
-      "id": "rkRmNhGbq",
+      "id": "rJX-kANWc",
       "position": {
         "units": "slots",
-        "x": 3,
-        "y": 2
+        "x": 0,
+        "y": 5
       },
-      "type": "@/set-font"
-    },
-    {
-      "id": "By_EN2z-9",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 1
-      },
-      "type": "@/font"
+      "type": "@/draw-character(wt-lcd-device)"
     }
   ]
 }
