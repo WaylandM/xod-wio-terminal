@@ -2,5 +2,5 @@
   "description": "Free fonts for the Wio Terminal display. To be used with the draw-string(wt-lcd-device) and draw-string(wt-sprite) nodes in the wio-terminal-lcd library (https://xod.io/libs/wayland/wio-terminal-lcd/).",
   "license": "MIT",
   "name": "wio-terminal-fonts",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
