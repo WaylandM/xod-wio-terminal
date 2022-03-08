@@ -108,7 +108,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
-      "description": "Font. Choose one of the fonts in wayland/wio-terminal-fonts.",
+      "description": "Font. Choose one of the fonts in wayland/wio-terminal-fonts. If no font is specified the node will default to GLCD.",
       "id": "HkqE56E-5",
       "label": "Font",
       "position": {

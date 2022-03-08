@@ -21,6 +21,7 @@ node {
         uint16_t color16 = ((color24.r & 0xF8) << 8) | ((color24.g & 0xFC) << 3) | (color24.b >> 3);
 
         spr -> setTextColor(color16);
+        spr -> setFreeFont(getValue<input_Font>(ctx));
         spr -> setTextSize(getValue<input_Size>(ctx));
         spr -> drawString(cString,
                         getValue<input_X>(ctx),

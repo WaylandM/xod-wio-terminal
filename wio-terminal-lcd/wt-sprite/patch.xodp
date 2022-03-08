@@ -1,5 +1,5 @@
 {
-  "description": "Create a sprite.",
+  "description": "Create a sprite. A sprite is stored in RAM and can be rendered to the LCD using either push-sprite or push-rotated-sprite.",
   "nodes": [
     {
       "id": "r1Bloi5YF",

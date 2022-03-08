@@ -41,7 +41,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -113,21 +113,10 @@
       "label": "Size",
       "position": {
         "units": "slots",
-        "x": 7,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-byte"
-    },
-    {
-      "description": "Font. Choose one of the fonts in wayland/wio-terminal-fonts.",
-      "id": "SJQ_y04-c",
-      "label": "Font",
-      "position": {
-        "units": "slots",
         "x": 6,
         "y": 0
       },
-      "type": "wayland/wio-terminal-fonts/input-font"
+      "type": "xod/patch-nodes/input-byte"
     }
   ]
 }
