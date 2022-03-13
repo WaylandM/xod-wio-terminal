@@ -1,0 +1,58 @@
+{
+  "description": "Delete bar identified by Index.",
+  "nodes": [
+    {
+      "id": "r1D3u5sZq",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A bar-chart object.",
+      "id": "B1xv2_coW5",
+      "label": "BChart",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-bar-chart"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "S1ZDnd5jbq",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "Hyfv2ucoW5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Index of bar (first bar is indexed as 1).",
+      "id": "Hkmw2d5jbq",
+      "label": "Index",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

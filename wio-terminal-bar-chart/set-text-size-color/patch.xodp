@@ -1,0 +1,105 @@
+{
+  "description": "Set the size and color of the text used for labels. Additionally, set the background color of the display.",
+  "nodes": [
+    {
+      "id": "S1PkPooZq",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A bar-chart object.",
+      "id": "Sygv1PooWc",
+      "label": "BChart",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-bar-chart"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SJZDkDjsZq",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "H1GP1wjiW9",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Text colour.",
+      "id": "SkQPkDjiZc",
+      "label": "TxtCol",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "Size of label text. Text size multiplier (takes values from 01h to 07h).",
+      "id": "S1BP1Dio-5",
+      "label": "Lsize",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Colour of text background.",
+      "id": "rkNMdisZ5",
+      "label": "TxtBG",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "#FFFFFF"
+      },
+      "description": "Color of display background.",
+      "id": "BknEf_sjbc",
+      "label": "BG",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "Size of text used to display value of bar. Text size multiplier (takes values from 01h to 07h).",
+      "id": "HyYWhjib9",
+      "label": "Vsize",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

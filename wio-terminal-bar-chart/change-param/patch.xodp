@@ -1,0 +1,91 @@
+{
+  "description": "Change parameters. Modify the Label, Value and Color of a bar identified by Index.",
+  "nodes": [
+    {
+      "id": "By41-HsZc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A bar-chart object.",
+      "id": "SJg4kZroW5",
+      "label": "BChart",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-bar-chart"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "HkZV1WrjZ5",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "BkGEyZHib9",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Color of bar.",
+      "id": "rkQEkWHiZ5",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "Label for bar.",
+      "id": "ByNE1brjb9",
+      "label": "Label",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Index of bar (first bar is indexed as 1).",
+      "id": "SJrEyZrjW5",
+      "label": "Index",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Value to display.",
+      "id": "H1IEkZHjZq",
+      "label": "Value",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}

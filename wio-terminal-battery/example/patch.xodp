@@ -1,0 +1,158 @@
+{
+  "links": [
+    {
+      "id": "Bk2BAxFWc",
+      "input": {
+        "nodeId": "H1OBAgtbq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "S1jGwkFb5"
+      }
+    },
+    {
+      "id": "rkEICxYWc",
+      "input": {
+        "nodeId": "ry1LRgKbc",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "B1p4w1Y-9"
+      }
+    },
+    {
+      "id": "ryrLAxYZc",
+      "input": {
+        "nodeId": "SklkLReKZ9",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "rkhYD1tZq"
+      }
+    },
+    {
+      "id": "By8L0lFb9",
+      "input": {
+        "nodeId": "H1eLAeFb9",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "S1XhwkF-q"
+      }
+    },
+    {
+      "id": "BJ_URetb5",
+      "input": {
+        "nodeId": "Syee8RetZc",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "S1lddkY-q"
+      }
+    },
+    {
+      "id": "BkcUAlFbq",
+      "input": {
+        "nodeId": "rJZxIClYZ5",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "ByWnOJYZq"
+      }
+    },
+    {
+      "id": "BJsLReK-9",
+      "input": {
+        "nodeId": "Hyb8AeYZc",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1lSRgKWc",
+        "pinKey": "S1-kKyKZc"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "rkgjHyF-q": "Continuously"
+      },
+      "id": "S1lSRgKWc",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/battery-650"
+    },
+    {
+      "id": "H1OBAgtbq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "ry1LRgKbc",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SklkLReKZ9",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1eLAeFb9",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Syee8RetZc",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJZxIClYZ5",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Hyb8AeYZc",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

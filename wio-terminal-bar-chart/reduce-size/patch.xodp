@@ -1,0 +1,83 @@
+{
+  "description": "Reduce size of bar-chart.",
+  "nodes": [
+    {
+      "id": "SyOfUjob9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A bar-chart object.",
+      "id": "Bkx_MIsjZ5",
+      "label": "BChart",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-bar-chart"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "BybdMIsi-q",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "ryG_fIooZc",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "X coordinate of bar-chart.",
+      "id": "BJkIuhsb5",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate of bar-chart.",
+      "id": "Skv8_2jb5",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "2d"
+      },
+      "description": "Scaling factor for reducing size of bar-chart.",
+      "id": "Hyadd2oZc",
+      "label": "Scale",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

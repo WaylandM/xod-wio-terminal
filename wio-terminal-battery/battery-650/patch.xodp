@@ -1,0 +1,102 @@
+{
+  "description": "Monitor Wio Terminal 650mAh battery.",
+  "nodes": [
+    {
+      "id": "SJQd4yYW5",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update",
+      "id": "rkgjHyF-q",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "State of charge (%).",
+      "id": "S1jGwkFb5",
+      "label": "SOC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Voltage (mV).",
+      "id": "B1p4w1Y-9",
+      "label": "mV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Average current (mA).",
+      "id": "rkhYD1tZq",
+      "label": "mA",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Full capacity (mAh).",
+      "id": "S1XhwkF-q",
+      "label": "mAh-F",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Remaining capacity (mAh).",
+      "id": "S1lddkY-q",
+      "label": "mAh-R",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Average power draw (mW).",
+      "id": "ByWnOJYZq",
+      "label": "mW",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "State of health (%).",
+      "id": "S1-kKyKZc",
+      "label": "SOH",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "B1F3V4Yb5",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Sy7SBVKZ5",
+      "label": "Histo",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "description": "A wt-lcd-device.",
+      "id": "Bkk_n4tb5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": 0
+      },
+      "type": "wayland/wio-terminal-lcd/input-wt-lcd-device"
+    }
+  ]
+}
