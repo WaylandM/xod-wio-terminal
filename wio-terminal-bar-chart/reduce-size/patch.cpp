@@ -13,7 +13,7 @@ node {
 
         uint16_t x = getValue<input_X>(ctx);
         uint16_t y = getValue<input_Y>(ctx);
-        uint8_t scaleFactor = getVAlue<input_Scale>(ctx);
+        uint8_t scaleFactor = getValue<input_Scale>(ctx);
 
         barchart -> shrinkShowHistogram(x, y, scaleFactor);
 

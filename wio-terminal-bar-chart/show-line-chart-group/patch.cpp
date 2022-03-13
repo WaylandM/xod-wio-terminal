@@ -12,7 +12,11 @@ node {
         auto barchart = getValue<input_BChart>(ctx);
 
         uint8_t num = getValue<input_Num>(ctx);
-        barchart -> groupCylinder(num);
+
+        XColor color24 = getValue<input_Color>(ctx);
+        uint16_t color16 = ((color24.r & 0xF8) << 8) | ((color24.g & 0xFC) << 3) | (color24.b >> 3);
+
+        barchart -> lineChart(num, color16);
 
         emitValue<output_Done>(ctx, 1);
     }
