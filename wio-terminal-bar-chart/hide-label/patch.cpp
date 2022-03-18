@@ -12,7 +12,7 @@ node {
         auto barchart = getValue<input_BChart>(ctx);
 
         uint8_t idx = getValue<input_Index>(ctx);
-        barchart -> notShowText(idx);
+        barchart -> notShowtext(idx);
 
         emitValue<output_Done>(ctx, 1);
     }

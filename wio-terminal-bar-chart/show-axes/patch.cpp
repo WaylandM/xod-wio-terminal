@@ -11,7 +11,11 @@ node {
         // Get a pointer to the `TFT_eSPI tft` class instance
         auto barchart = getValue<input_BChart>(ctx);
 
-        barchart -> ShowAxis();
+        if(getValue<input_Show>(ctx)){
+            barchart -> ShowAxis();
+        } else {
+            barchart -> notShowAxis();
+        }
 
         emitValue<output_Done>(ctx, 1);
     }

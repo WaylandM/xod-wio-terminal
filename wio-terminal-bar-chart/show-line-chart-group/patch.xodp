@@ -1,6 +1,7 @@
 {
   "nodes": [
     {
+      "description": "Plot a line chart over a grouped bar-chart.",
       "id": "SyDFJgnZ9",
       "position": {
         "units": "slots",

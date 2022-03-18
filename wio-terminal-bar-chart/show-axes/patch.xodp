@@ -38,10 +38,21 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "If true, show axes. If false, hide axes.",
+      "id": "BkStsm-z9",
+      "label": "Show",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
     }
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "description": "Patch to display a bar-chart. ",
   "links": [
     {
       "id": "rJjQnK5-9",
@@ -163,28 +164,6 @@
       "output": {
         "nodeId": "Bypk-Ci-q",
         "pinKey": "ryEqpu9b5"
-      }
-    },
-    {
-      "id": "BymFEy3Zq",
-      "input": {
-        "nodeId": "HkY_N1nWq",
-        "pinKey": "rkl_LHjsZq"
-      },
-      "output": {
-        "nodeId": "HyAuNknbq",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "S1ZAVyhbq",
-      "input": {
-        "nodeId": "HkY_N1nWq",
-        "pinKey": "BJzO8SiiZ9"
-      },
-      "output": {
-        "nodeId": "rJj3nKc-5",
-        "pinKey": "rkbBiY9Wc"
       }
     }
   ],
@@ -385,28 +364,6 @@
         "y": 7
       },
       "type": "@/add-bar"
-    },
-    {
-      "boundLiterals": {
-        "rJXu8rjsWq": "#666666"
-      },
-      "id": "HkY_N1nWq",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 9
-      },
-      "type": "@/show-line-chart"
-    },
-    {
-      "id": "HyAuNknbq",
-      "label": "BChart",
-      "position": {
-        "units": "slots",
-        "x": -1,
-        "y": 9
-      },
-      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }

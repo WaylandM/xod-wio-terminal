@@ -11,7 +11,6 @@ node {
         // Get a pointer to the `TFT_eSPI tft` class instance
         auto barchart = getValue<input_BChart>(ctx);
 
-        uint8_t idx = getValue<input_Index>(ctx);
         barchart -> showText();
 
         emitValue<output_Done>(ctx, 1);
