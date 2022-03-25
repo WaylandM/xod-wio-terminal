@@ -15,7 +15,7 @@
       }
     },
     {
-      "content": "The 16 bit images used in this example can be found in: https://github.com/WaylandM/xod-wio-terminal/tree/main/images/bmp/rgb565 \n\nAn SD card containing these images must be inserted into the Wio Terminal before running this patch.",
+      "content": "The 16 bit images used in this example can be found in: \nhttps://github.com/WaylandM/xod-wio-terminal/raw/main/images/bmp/rgb565_example_images.zip\n\nAn SD card containing these images must be inserted into the Wio Terminal before running this patch.\n",
       "id": "B12OZpfYF",
       "position": {
         "units": "slots",
