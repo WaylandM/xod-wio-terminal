@@ -1,5 +1,5 @@
 {
-  "description": "Reduce size of bar-chart.",
+  "description": "Reduce size of bar-chart. See patch: 03-example.",
   "nodes": [
     {
       "id": "SyOfUjob9",
@@ -44,7 +44,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "X coordinate of bar-chart.",
+      "description": "X coordinate of reduced bar-chart.",
       "id": "BJkIuhsb5",
       "label": "X",
       "position": {
@@ -55,7 +55,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Y coordinate of bar-chart.",
+      "description": "Y coordinate of reduced bar-chart.",
       "id": "Skv8_2jb5",
       "label": "Y",
       "position": {

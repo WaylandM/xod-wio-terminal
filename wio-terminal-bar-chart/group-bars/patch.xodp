@@ -1,4 +1,5 @@
 {
+  "description": "Display bars in groups of size Num.",
   "nodes": [
     {
       "id": "SyHCRqjb9",

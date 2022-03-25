@@ -1,5 +1,5 @@
 {
-  "description": "Hide the label of the bar identified by Index.",
+  "description": "Hide the label of the bar identified by Index. See patch: 05-example.",
   "nodes": [
     {
       "id": "BJn9zsjb5",

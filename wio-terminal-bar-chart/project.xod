@@ -1,3 +1,6 @@
 {
-  "name": "wio-terminal-bar-chart"
+  "description": "Nodes for drawing bar charts on the LCD screen of the Wio Terminal. Wraps https://github.com/Seeed-Studio/Seeed_Arduino_Histogram",
+  "license": "MIT",
+  "name": "wio-terminal-bar-chart",
+  "version": "0.0.2"
 }

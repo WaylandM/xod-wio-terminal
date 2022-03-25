@@ -1,5 +1,5 @@
 {
-  "description": "Change parameters. Modify the Label, Value and Color of a bar identified by Index.",
+  "description": "Change parameters. Modify the Label, Value and Color of a bar identified by Index. See patch: 05-example.",
   "nodes": [
     {
       "id": "By41-HsZc",

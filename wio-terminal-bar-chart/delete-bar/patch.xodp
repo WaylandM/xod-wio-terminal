@@ -1,5 +1,5 @@
 {
-  "description": "Delete bar identified by Index.",
+  "description": "Delete bar identified by Index. See patch: 04-example.",
   "nodes": [
     {
       "id": "r1D3u5sZq",

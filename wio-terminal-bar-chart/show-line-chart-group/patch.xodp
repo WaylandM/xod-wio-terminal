@@ -1,4 +1,5 @@
 {
+  "description": "Overlay line chart for grouped data. See patch: 06-example.",
   "nodes": [
     {
       "description": "Plot a line chart over a grouped bar-chart.",

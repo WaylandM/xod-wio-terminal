@@ -1,5 +1,5 @@
 {
-  "description": "Overlay line chart.",
+  "description": "Overlay line chart. See patch: 06-example.",
   "nodes": [
     {
       "id": "BJOUrsoWq",
