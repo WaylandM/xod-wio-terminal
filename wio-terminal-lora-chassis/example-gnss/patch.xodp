@@ -1,0 +1,616 @@
+{
+  "description": "The LoRa chassis has a builtin Global Navigation Satellite System (GNSS) module. This module has a UART interface connected to pins D2 (TX) and D3 (RX) of the WioTerminal. This patch demonstrates how to use the GNSS module. Run in debugger. ",
+  "links": [
+    {
+      "id": "H11W_V0dkyA",
+      "input": {
+        "nodeId": "ByONAOyyA",
+        "pinKey": "BJzW51Afq"
+      },
+      "output": {
+        "nodeId": "S1edV0Oy1C",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "HyZZOERd1JR",
+      "input": {
+        "nodeId": "BkV_N0O1JA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyzdER_JkA",
+        "pinKey": "HymSjb0Mc"
+      }
+    },
+    {
+      "id": "ryfWdVCd1JC",
+      "input": {
+        "nodeId": "SJm_NROykR",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyzdER_JkA",
+        "pinKey": "H1QNjZCf9"
+      }
+    },
+    {
+      "id": "S1XbO4ROyJA",
+      "input": {
+        "nodeId": "SyUuE0_ykA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkr_VCuyJR",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rJ4ZdN0Oy1R",
+      "input": {
+        "nodeId": "rkYdNR_JJA",
+        "pinKey": "Hy_D4G0JOX"
+      },
+      "output": {
+        "nodeId": "ry__E0O1kA",
+        "pinKey": "rJMWEH0fc"
+      }
+    },
+    {
+      "id": "B1r-uVCuJk0",
+      "input": {
+        "nodeId": "rJDuVAdkkC",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkYdNR_JJA",
+        "pinKey": "BkvDEzR1Om"
+      }
+    },
+    {
+      "id": "HkUWu4AuJJR",
+      "input": {
+        "nodeId": "ByidNROyyR",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkc_4ROJ1A",
+        "pinKey": "rkGEluSRz5"
+      }
+    },
+    {
+      "id": "SyD-dN0u1yA",
+      "input": {
+        "nodeId": "S1n_ERO11C",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1edV0Oy1C",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "rJ_Z_N0uJJA",
+      "input": {
+        "nodeId": "Bkc_4ROJ1A",
+        "pinKey": "HyxEgdH0f5"
+      },
+      "output": {
+        "nodeId": "ByAd4C_k1R",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryKW_4RdJJC",
+      "input": {
+        "nodeId": "ry__E0O1kA",
+        "pinKey": "rJlamrAG9"
+      },
+      "output": {
+        "nodeId": "HJ6u4R_k10",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SycZ_EAd11C",
+      "input": {
+        "nodeId": "SyzdER_JkA",
+        "pinKey": "HywfoWCzq"
+      },
+      "output": {
+        "nodeId": "BJJxO4Ad1y0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sysbd4AOkyA",
+      "input": {
+        "nodeId": "Bkr_VCuyJR",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "ByONAOyyA",
+        "pinKey": "rJPu9JRM5"
+      }
+    },
+    {
+      "id": "rk3WOEC_y1R",
+      "input": {
+        "nodeId": "BJexdNAuy1C",
+        "pinKey": "rJl5iLdkm5"
+      },
+      "output": {
+        "nodeId": "Sk7euVROykC",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkTZuN0d11A",
+      "input": {
+        "nodeId": "HJWluN0d110",
+        "pinKey": "HJlEp8qk79"
+      },
+      "output": {
+        "nodeId": "BJGluN0_Jy0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B10-dVCO1J0",
+      "input": {
+        "nodeId": "BJEgd40O11A",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJWluN0d110",
+        "pinKey": "HyGEpI917c"
+      }
+    },
+    {
+      "id": "rkyMO40Okk0",
+      "input": {
+        "nodeId": "B1Hx_ER_kJA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJexdNAuy1C",
+        "pinKey": "SJMqs8dJQq"
+      }
+    },
+    {
+      "id": "B1lG_E0_J1R",
+      "input": {
+        "nodeId": "HJUeON0OkkA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJexdNAuy1C",
+        "pinKey": "H13rTt1Qq"
+      }
+    },
+    {
+      "id": "S1bMu4A_kkC",
+      "input": {
+        "nodeId": "BJveO4R_1kC",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJexdNAuy1C",
+        "pinKey": "ryzU6FJQc"
+      }
+    },
+    {
+      "id": "ryzMOECdk1A",
+      "input": {
+        "nodeId": "B1_l_4AdyJA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJexdNAuy1C",
+        "pinKey": "ByWUTtJQ9"
+      }
+    },
+    {
+      "id": "rJQG_VC_J1A",
+      "input": {
+        "nodeId": "BJKxd4AO1kA",
+        "pinKey": "Bkgx_awk79"
+      },
+      "output": {
+        "nodeId": "HJ5guV0OJJ0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyVG_40uyk0",
+      "input": {
+        "nodeId": "rkigd4COyJ0",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJKxd4AO1kA",
+        "pinKey": "H1GxdTv1X5"
+      }
+    },
+    {
+      "id": "HJHM_V0O11A",
+      "input": {
+        "nodeId": "S1heOV0_kk0",
+        "pinKey": "SygSlxcJ7q"
+      },
+      "output": {
+        "nodeId": "H16xdNAdkkA",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJLz_NA_kyR",
+      "input": {
+        "nodeId": "BkCl_V0dyyC",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1heOV0_kk0",
+        "pinKey": "rkGSeeqyXq"
+      }
+    },
+    {
+      "id": "HJFBAuJJA",
+      "input": {
+        "nodeId": "ByONAOyyA",
+        "pinKey": "HJ1N5yCGc"
+      },
+      "output": {
+        "nodeId": "BJSr0OyyA",
+        "pinKey": "rycxytIZQ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ByONAOyyA",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "wayland/gps/encode"
+    },
+    {
+      "id": "S1edV0Oy1C",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "wayland/gps/gps-device"
+    },
+    {
+      "id": "SyzdER_JkA",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "wayland/gps/get-location"
+    },
+    {
+      "id": "SJm_NROykR",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BkV_N0O1JA",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Bkr_VCuyJR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "SyUuE0_ykA",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJDuVAdkkC",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "ry__E0O1kA",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 2
+      },
+      "type": "wayland/gps/get-datetime"
+    },
+    {
+      "id": "rkYdNR_JJA",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 3
+      },
+      "type": "xod/datetime/format-timestamp"
+    },
+    {
+      "id": "Bkc_4ROJ1A",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 2
+      },
+      "type": "wayland/gps/get-satellite-count"
+    },
+    {
+      "id": "ByidNROyyR",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1n_ERO11C",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "HJ6u4R_k10",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "ByAd4C_k1R",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BJJxO4Ad1y0",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BJexdNAuy1C",
+      "position": {
+        "units": "slots",
+        "x": 25,
+        "y": 2
+      },
+      "type": "wayland/gps/get-diagnostics"
+    },
+    {
+      "id": "HJWluN0d110",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 2
+      },
+      "type": "wayland/gps/get-precision"
+    },
+    {
+      "id": "BJGluN0_Jy0",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "Sk7euVROykC",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 25,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BJEgd40O11A",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "B1Hx_ER_kJA",
+      "position": {
+        "units": "slots",
+        "x": 25,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HJUeON0OkkA",
+      "position": {
+        "units": "slots",
+        "x": 26,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJveO4R_1kC",
+      "position": {
+        "units": "slots",
+        "x": 27,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "B1_l_4AdyJA",
+      "position": {
+        "units": "slots",
+        "x": 28,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJKxd4AO1kA",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "wayland/gps/get-altitude-metres"
+    },
+    {
+      "id": "HJ5guV0OJJ0",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "rkigd4COyJ0",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1heOV0_kk0",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 2
+      },
+      "type": "wayland/gps/get-speed-kmph"
+    },
+    {
+      "id": "H16xdNAdkkA",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BkCl_V0dyyC",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "Syz-kKUWX": "D3",
+        "r1mZktLZm": "D2"
+      },
+      "id": "BJSr0OyyA",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/uart/soft-uart"
+    }
+  ]
+}
